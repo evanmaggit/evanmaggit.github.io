@@ -9,7 +9,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>HTML Semantic Tags</title>
+	<title>CSS Measuring Units</title>
 
 	<!-- external and internal CSS -->
 	<link rel="stylesheet" href="styles.css" media="all">
@@ -29,51 +29,19 @@
 
 <body>
 
-	<h1>What is the difference between non-semantic and semantic tags in HTML?</h1>
+	<h1>What is the difference between absolute and relative CSS length units?</h1>
 
-    <p>Long story short, non-semantic elements don't tell anything about the content inside its bracket, while semantic elements describe its content in a clear manner.</p>
-    <p>Non-semantic is more structual, while Semantic is more meaningful.</p>
+    <p>Absolute units are fixed, physical sizes that don't scale with the user's screen or settings. For example: A 20px font will always be 20 pixels, no matter the parent element or viewport size.</p>
 
-    <p>Below is an example of both non-semantic and semantic tags...</p>
+    <p>Relative units are scaled in relation to something else (like parent element, root font size, or viewport). For example: A 2em font will be twice the parent's font size, so it changes dynamically depending on context.</p>
 
-    <textarea>
+    <h2>Below are three example of absolute and relative units...</h2>
 
-        <p>NON-SEMANTIC TAGS</p>
+    <p>"px" is an absolute unit that scales the resolution and zoom level, and "pt" are absolute units intended to represent physical dimensions.</p>
 
-        <div>
-        </div>
+    <p>"%" is a relative unit that expresses size as a proportion of another value, usually the size of a parent element or a containing context.</p>
 
-        <span>
-        </span>
-
-        <p>SEMANTIC TAGS</p>
-
-        <header>
-        </header>
-
-        <main>
-        </main>
-
-        <nav>
-        </nav>
-
-        <section>
-        </section>
-
-        <div>
-        </div>
-
-        <article>
-        </article>
-
-        <footer>
-        </footer>
-
-    </textarea>
-
-    <h1>What are two (or more) benefits of using semantic tags?</h1>
-
-    <p>Semantic tags improve the accessiblity and readibility of the code. They also lead to a more consistent code.</p>
+    <p>"em" is relative to parent font size, and "rem" which is relative to root element.</p>
 
 </body>
 
