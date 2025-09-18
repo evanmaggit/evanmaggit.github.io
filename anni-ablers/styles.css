@@ -54,6 +54,26 @@ p.callout {
 
 }
 
+#row7 p {
+    margin-left: calc(100% * 1 / 6);
+}
+
+#row11 p {
+    margin-left: calc(100% * 1 / 6);
+}
+
+#row14 p {
+    margin-left: calc(100% * 2 / 6);
+}
+
+#row15 h2 {
+    margin-left: calc(100% * 3 / 6);
+}
+
+#row16 p {
+    margin-left: calc(100% * 3 / 6);
+}
+
 /* CSS for index2                                      */
 
 /* inherit the baseline main code, above, and add to it */
@@ -62,7 +82,7 @@ p.callout {
 
     display: grid;
     grid-template-columns: repeat(6, calc(100% / 6) );
-    grid-template-rows: 100vh repeat(4, auto);
+    grid-template-rows: 100vh repeat(18, auto);
     grid-template-areas:
         'title title title title title title'
         '. p1 p1 p1 . .'
