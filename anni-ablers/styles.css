@@ -107,7 +107,7 @@ p.callout {
 
 /* assigning grid area names to DOM elements */
 
-#secondLayout #TitleRow {
+#secondLayout #titleRow {
     grid-area: title;
 }
 
