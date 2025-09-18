@@ -10,8 +10,7 @@ main {
 
 h1 {
 
-    font-size: 3rem;
-    font-style: bold;
+    font-size: 4rem;
 
 }
 
@@ -24,9 +23,9 @@ h2 {
 
 p {
 
-    font-size: 1.2rem;
-    line-height: 2.5rem;
-    width: 50%;
+    font-size: 1.25rem;
+    line-height: 2.2rem;
+    width: 60%;
 
 }
 
@@ -46,7 +45,7 @@ p.callout {
 
 #row3 p {
 
-    margin-left: calc(100% * 1 / 6);
+    margin-left: calc(100% * 2 / 6);
 
 }
 
@@ -68,7 +67,7 @@ p.callout {
     margin-left: calc(100% * 2 / 6);
 }
 
-#row17 p {
+#row16 p {
     margin-left: calc(100% * 2 / 6);
 }
 
@@ -102,7 +101,7 @@ p.callout {
         '. . . p13 p13 .'
         '. . p14 p14 . .'
         'p15 p15 . . . .'
-        'p16 p16 . . . .';
+        '. . p16 p16 . .';
 
 }
 
@@ -203,7 +202,7 @@ p.callout {
 
 #secondLayout #callout1 {
 
-    padding-left: 0;
+    padding-left: 2em;
 
 }
 
