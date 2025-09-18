@@ -68,7 +68,11 @@ p.callout {
 }
 
 #row15 h2 {
-    margin-left: calc(100% * 3 / 6);
+    margin-left: calc(100% * 1 / 6);
+}
+
+#row16 p {
+    margin-left: calc(100% * 2 / 6);
 }
 
 /* CSS for index2                                      */
@@ -100,7 +104,7 @@ p.callout {
         '. p12 p12 . . .'
         '. . . p13 p13 .'
         '. . p14 p14 . .'
-        '. p15 p15 . . .'
+        'p15 p15 . . . .'
         'p16 p16 . . . .';
 
 }
@@ -195,7 +199,7 @@ p.callout {
 
 #secondLayout p {
 
-    width: 100%;
+    width: 150%;
 
 }
 
@@ -225,5 +229,5 @@ p.callout {
 }
 
 #secondLayout #row6 {
-    width: 96%;
+    width: 125%;
 }
