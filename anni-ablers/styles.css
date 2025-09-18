@@ -101,8 +101,7 @@ p.callout {
         '. . . p13 p13 .'
         '. . p14 p14 . .'
         '. p15 p15 . . .'
-        'p16 p16 . . . .'
-        'p17 p17 . . . .';
+        'p16 p16 . . . .';
 
 }
 
@@ -174,10 +173,6 @@ p.callout {
 
 #secondLayout #row16 {
     grid-area: p16;
-}
-
-#secondLayout #row17 {
-    grid-area: p17;
 }
 
 #secondLayout #callout1 {
