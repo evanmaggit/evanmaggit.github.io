@@ -1,27 +1,36 @@
 /* styles for both Anni Albers layouts */
 
 main {
+
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
+
 }
 
 h1 {
+
     font-size: 3rem;
+
 }
 
 h2 {
+
     font-size: 0.75rem;
     font-style: italic;
+
 }
 
 p {
+
     font-size: 1.2rem;
     line-height: 2.5rem;
     width: 50%;
+
 }
 
 p.callout {
+
     font-size: 2rem;
     line-height: 2.2rem;
     font-style: italic;
@@ -29,24 +38,28 @@ p.callout {
     text-align: right;
     padding-left: 2em;
     margin-top: 0;
+
 }
 
 #row1 p,
 #row3 p {
+
     margin-left: calc(100% * 1 / 6);
+
 }
 
 #row4 p {
+
     margin-left: calc(100% * 2 / 6);
+
 }
 
-
-/* *************************************************** */
 /* CSS for index2                                      */
-/* *************************************************** */
 
 /* inherit the baseline main code, above, and add to it */
+
 #secondLayout main {
+
     display: grid;
     grid-template-columns: repeat(6, calc(100% / 6) );
     grid-template-rows: 100vh repeat(4, auto);
@@ -56,9 +69,11 @@ p.callout {
         'p2 p2 p2 c1 c1 c1'
         '. p3 p3 p3 . .'
         '. . p4 p4 p4 .';
+
 }
 
 /* assigning grid area names to DOM elements */
+
 #secondLayout #titleRow { grid-area: title; }
 #secondLayout #para1 { grid-area: p1; }
 #secondLayout #para2 { grid-area: p2; }
@@ -67,14 +82,21 @@ p.callout {
 #secondLayout #callout1 { grid-area: c1; }
 
 /* override the baseline p styles from above */
+
 #secondLayout p {
+
     width: 100%;
+
 }
 
 #secondLayout #callout1 {
+
     padding-left: 0;
+
 }
 
 #secondLayout section h1 {
+
     padding-top: 70vh;
+    
 }
