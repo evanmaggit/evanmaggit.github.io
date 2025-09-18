@@ -71,10 +71,6 @@ p.callout {
     margin-left: calc(100% * 3 / 6);
 }
 
-#row16 p {
-    margin-left: calc(100% * 2 / 6);
-}
-
 /* CSS for index2                                      */
 
 /* inherit the baseline main code, above, and add to it */
