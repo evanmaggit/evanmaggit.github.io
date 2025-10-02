@@ -10,9 +10,9 @@
 
 body {
 
-    padding: 0;
+    padding: 5;
 
-    margin: 0;
+    margin: 5;
 
 }
 
@@ -30,7 +30,7 @@ header {
 
     width: 100vw;
 
-    height: 100vh;
+    height: 80vh;
 
     background-image: url("Pacific Rhododendron 3 - Gary Monroe-1.jpeg");
 
@@ -44,9 +44,9 @@ header {
 
     position: absolute;
 
-    width: 100vw;
+    width: 90vw;
 
-    height: 100vh;
+    height: 90vh;
 
 }
 
