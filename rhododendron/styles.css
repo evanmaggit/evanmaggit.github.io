@@ -10,9 +10,9 @@
 
 body {
 
-    padding: 5;
+    padding: 0;
 
-    margin: 5;
+    margin: 0;
 
 }
 
@@ -44,9 +44,9 @@ header {
 
     position: absolute;
 
-    width: 90vw;
+    width: 100vw;
 
-    height: 90vh;
+    height: 100vh;
 
 }
 
@@ -60,7 +60,7 @@ header {
 
     color: pink;
 
-    font-size: 5em;
+    font-size: 8em;
 
     width: calc(100vw - 2em);
 
