@@ -60,7 +60,7 @@ header {
 
     color: pink;
 
-    font-size: 2.5em;
+    font-size: 2em;
 
     width: calc(100vw - 2em);
 
@@ -86,7 +86,7 @@ header {
 
     #rhodieTitle h1 {
 
-        width: 45vw;
+        width: 40vw;
 
     }
     
