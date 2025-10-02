@@ -4,7 +4,7 @@
 
     box-sizing: border-box;
 
-    font-family: "Times New Roman", Times, serif;
+    font-family: Georgia, serif;
 
 }
 
@@ -60,7 +60,7 @@ header {
 
     color: pink;
 
-    font-size: 2em;
+    font-size: 5em;
 
     width: calc(100vw - 2em);
 
@@ -76,9 +76,9 @@ header {
 
     #rhodieTitle {
 
-        width: 100vw;
+        width: 59vw;
 
-        left: 100vw;
+        left: 50vw;
 
         background-color: #330a23;
 
