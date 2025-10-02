@@ -4,15 +4,15 @@
 
     box-sizing: border-box;
 
-    font-family: Helvetica, sans-serif;
+    font-family: "Times New Roman", Times, serif;
 
 }
 
 body {
 
-    padding: 5;
+    padding: 10;
 
-    margin: 5;
+    margin: 10;
 
 }
 
@@ -30,7 +30,7 @@ header {
 
     width: 100vw;
 
-    height: 80vh;
+    height: 100vh;
 
     background-image: url("Pacific Rhododendron 3 - Gary Monroe-1.jpeg");
 
@@ -66,7 +66,7 @@ header {
 
 }
 
-@media screen and (orientation: landscape) {
+@media screen and (orientation: potrait) {
 
     #rhodiePicture {
 
