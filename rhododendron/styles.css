@@ -1,64 +1,93 @@
 /* mobile-first design for Pacific Rhododendron layout */
 
 * {
+
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+
+    font-family: Helvetica, sans-serif;
+
 }
 
 body {
+
     padding: 0;
+
     margin: 0;
+
 }
 
 header {
+
     width: 100vw;
+
     height: 100vh;
+
 }
 
 #rhodiePicture {
+
     position: absolute;
+
     width: 100vw;
+
     height: 100vh;
+
     background-image: url("Pacific Rhododendron 3 - Gary Monroe-1.jpeg");
+
     background-size: cover;
+
     background-position: center center;
+
 }
 
 #rhodieTitle {
+
     position: absolute;
+
     width: 100vw;
+
     height: 100vh;
+
 }
 
 #rhodieTitle h1 {
+
     position: absolute;
+
     bottom: 0;
+
     left: 1em;
-    color: white;
+
+    color: pink;
+
     font-size: 2.5em;
+
     width: calc(100vw - 2em);
+
 }
-
-
-/* PUT THE REST OF THE MOBILE BASELINE LAYOUT HERE */
-
 
 @media screen and (orientation: landscape) {
 
     #rhodiePicture {
+
         width: 50vw;
+
     }
 
     #rhodieTitle {
+
         width: 50vw;
+
         left: 50vw;
-        background-color: #333;
+
+        background-color: #330a23;
+
     }
 
     #rhodieTitle h1 {
-        width: 45vw;
-    }
 
-    /* PUT THE REST OF THE DESKTOP LAYOUT HERE */
+        width: 45vw;
+
+    }
     
 }
