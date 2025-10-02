@@ -10,9 +10,9 @@
 
 body {
 
-    padding: 10;
+    padding: 0;
 
-    margin: 10;
+    margin: 0;
 
 }
 
@@ -76,9 +76,9 @@ header {
 
     #rhodieTitle {
 
-        width: 50vw;
+        width: 100vw;
 
-        left: 50vw;
+        left: 100vw;
 
         background-color: #330a23;
 
@@ -86,7 +86,7 @@ header {
 
     #rhodieTitle h1 {
 
-        width: 40vw;
+        width: 50vw;
 
     }
     
