@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<!-- meta tags and title -->
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>CSS Color</title>
+
+	<!-- external and internal CSS -->
+	<link rel="stylesheet" href="styles.css" media="all">
+
+	<style>
+		/* in-file CSS here */
+	</style>
+
+	<!-- external and internal JavaScript -->
+	<script src="scripts.js" defer></script>
+
+	<script>
+		// in-page JavaScript here
+	</script>
+
+</head>
+
+<body>
+
+	<h1>What do these CSS properties do?</h1>
+
+    <p>"color" sets the color of the text inside an element.</p>
+
+    <p>"background-color" fills the background area of an element with color, behind both the text and padding area.</p>
+
+    <p>"border-color" defines the color of an element’s border.</p>
+
+    <h2>How does CSS accept color as a value?</h2>
+
+    <p>CSS includes a library of predefined color names that are simple, readable, and great for quick use.</p>
+
+    <textarea>
+
+        color: red;
+        background-color: navy;
+        border-color: goldenrod;
+
+    </textarea>
+
+    <p>Hex codes use a # followed by either three or six hexadecimal digits.</p>
+
+    <textarea>
+
+        color: #ff0000; /* Red */
+        background-color: #00ff00;  /* Green */
+        border-color: #0000ff;  /* Blue */
+
+    </textarea>
+
+    <p>RGB stands for Red, Green, Blue. You can also add an “A” for alpha (opacity), ranging from 0 to 1.</p>
+
+    <textarea>
+
+        color: rgb(255, 0, 0);  /* Red */
+        background-color: rgba(0, 0, 255, 0.5);  /* Semi-transparent blue */
+
+    </textarea>
+
+    <p>Another color model — Hue, Saturation, Lightness  (HSL) — (Hue is a degree on the color wheel (0–360), saturation and lightness are percentages).</p>
+
+    <textarea>
+
+        color: hsl(120, 100%, 50%);  /* Bright green */
+        background-color: hsla(200, 100%, 50%, 0.3);  /* Transparent cyan */
+
+    </textarea>
+
+</body>
+
+</html>
