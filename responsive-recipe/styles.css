@@ -18,9 +18,9 @@ body {
 
     position: absolute;
 
-    width: 120vw;
+    width: 200vw;
 
-    height: 120vh;
+    height: 200vh;
 
 }
 
@@ -100,6 +100,16 @@ body {
 
 @media screen and (orientation: landscape) {
 
+.img {
+
+    position: absolute;
+
+    left: 1em;
+
+    top: 20em;
+
+}
+
 #ShrimpTitle h1 {
 
 position: absolute;
@@ -114,7 +124,7 @@ Top: 0em;
 
 position: absolute;
 
-left: 41em;
+left: 45em;
 
 top: 6.5em;
 
@@ -124,9 +134,9 @@ top: 6.5em;
 
 position: absolute;
 
-left: 60em;
+left: 50em;
 
-top: 8.5em;
+top: 14em;
 
 }
  
@@ -135,9 +145,9 @@ top: 8.5em;
 
 position: absolute;
 
-left: 60em;
+left: 50em;
 
-top: 11em;
+top: 17.5em;
 
 }
 
@@ -145,7 +155,7 @@ top: 11em;
 
 position: absolute;
 
-left: 60em;
+left: 50em;
 
 top: 27em;
 
@@ -155,7 +165,7 @@ top: 27em;
 
 position: absolute;
 
-left: 60em;
+left: 50em;
 
 top: 30em;
 
@@ -165,7 +175,7 @@ top: 30em;
 
 position: absolute;
 
-left: 1em;
+left: 20em;
 
 top: 45em;
 
