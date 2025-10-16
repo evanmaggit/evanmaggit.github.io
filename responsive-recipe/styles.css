@@ -108,6 +108,8 @@ body {
 
     height: 100vh;
 
+    top: 20em;
+
 }
 
 #ShrimpTitle h1 {
@@ -116,7 +118,7 @@ position: absolute;
 
 left: 16.5em;
 
-Top: 0em;
+top: 0em;
 
 }
 
