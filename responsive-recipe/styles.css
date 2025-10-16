@@ -1,10 +1,8 @@
-/* mobile-first design for Pacific Rhododendron layout */
+/* mobile-first design for responsive recipe layout */
 
 * {
 
     box-sizing: border-box;
-
-    font-family: Georgia, serif;
 
 }
 
@@ -16,53 +14,7 @@ body {
 
 }
 
-header {
-
-    width: 100vw;
-
-    height: 100vh;
-
-}
-
-main {
-
-    width: 80%;
-
-    max-width: 1100px;
-
-    margin: 0 auto;
-
-    color: pink;
-
-    background-color: #330a23;
-
-}
-
-h2 {
-
-    font-size: 2rem;
-
-    font-style: italic;
-
-}
-
-#rhodiePicture {
-
-    position: absolute;
-
-    width: 100vw;
-
-    height: 100vh;
-
-    background-image: url("Pacific Rhododendron 3 - Gary Monroe-1.jpeg");
-
-    background-size: cover;
-
-    background-position: center center;
-
-}
-
-#rhodieTitle {
+.img {
 
     position: absolute;
 
@@ -72,44 +24,152 @@ h2 {
 
 }
 
-#rhodieTitle h1 {
+ #ShrimpTitle h1 {
+
+        position: absolute;
+
+        left: 1.3em;
+
+        bottom: 3.8em;
+
+        font-size: 2.5em;
+
+        width: calc(100vw - 2em);
+
+ }
+            
+    #ShrimpAbstract {
+
+        position: absolute;
+
+        left: 1.2em;
+
+        bottom: 6em;
+
+    }
+
+    #ShrimpInTitle {
+
+        position: absolute;
+
+        left: 8.5em;
+
+        bottom: 3.5em;
+        
+    }
+
+    #ShrimpIn {
+
+        position: absolute;
+
+        left: 0.5em;
+
+        top: 36em;
+
+    }
+
+    #ShrimpDirTitle {
+
+        position: absolute;
+
+        left: 8.5em;
+
+        top: 62em;
+
+    }
+
+    #ShrimpDir {
 
     position: absolute;
 
-    bottom: 0;
+         left: 0.5em;
 
-    left: 1em;
+        top: 64em;
 
-    color: pink;
+    }
 
-    font-size: 4em;
+    #ShrimpCopy footer {
 
-    width: calc(100vw - 2em);
+    position: absolute;
 
-}
+        top: 107em;
+
+        left: 7em;
+
+    }
 
 @media screen and (orientation: landscape) {
 
-    #rhodiePicture {
+#ShrimpTitle h1 {
 
-        width: 50vw;
+position: absolute;
 
-    }
+left: 16.5em;
 
-    #rhodieTitle {
+Top: 0em;
 
-        width: 50vw;
-
-        left: 50vw;
-
-        background-color: #330a23;
-
-    }
-
-    #rhodieTitle h1 {
-
-        width: 50vw;
-
-    }
-    
 }
+
+#ShrimpAbstract {
+
+position: absolute;
+
+left: 41em;
+
+top: 6.5em;
+
+}
+
+#ShrimpInTitle {
+
+position: absolute;
+
+left: 60em;
+
+top: 8.5em;
+
+}
+ 
+
+#ShrimpIn {
+
+position: absolute;
+
+left: 60em;
+
+top: 11em;
+
+}
+
+#ShrimpDirTitle {
+
+position: absolute;
+
+left: 1em;
+
+top: 27em;
+
+}
+
+#ShrimpDir {
+
+position: absolute;
+
+left: 1em;
+
+top: 30em;
+
+}
+
+#ShrimpCopy footer {
+
+position: absolute;
+
+left: 65em;
+
+top: 45em;
+
+}
+}
+
+/* PUT THE REST OF THE DESKTOP BASELINE LAYOUT HERE */
