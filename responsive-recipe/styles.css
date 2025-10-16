@@ -104,9 +104,9 @@ body {
 
     position: absolute;
 
-    left: 1em;
+    width: 100vw;
 
-    top: 20em;
+    height: 100vh;
 
 }
 
