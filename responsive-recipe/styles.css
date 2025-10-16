@@ -100,16 +100,6 @@ body {
 
 @media screen and (orientation: landscape) {
 
-.img {
-
-    position: absolute;
-
-    width:50vw;
-
-    height: 50vh;
-
-}
-
 #ShrimpTitle h1 {
 
 position: absolute;
