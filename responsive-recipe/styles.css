@@ -18,7 +18,7 @@ body {
 
     position: absolute;
 
-    width: 80vw;
+    width: 100vw;
 
     height: 80vh;
 
@@ -52,9 +52,9 @@ body {
 
         position: absolute;
 
-        left: 10em;
+        left: 5em;
 
-        bottom: 9em;
+        bottom: 20em;
         
     }
 
@@ -64,7 +64,7 @@ body {
 
         left: 0.5em;
 
-        top: 36em;
+        top: 45em;
 
     }
 
