@@ -28,13 +28,13 @@ body {
 
         position: absolute;
 
-        left: 1.3em;
+        left: 4em;
 
-        bottom: 3em;
+        bottom: 5em;
 
-        font-size: 2em;
+        font-size: 3em;
 
-        width: calc(80vw - 2em);
+        width: calc(100vw - 2em);
 
  }
             
@@ -44,7 +44,7 @@ body {
 
         left: 1.2em;
 
-        bottom: 9em;
+        bottom: 6em;
 
     }
 
@@ -52,9 +52,9 @@ body {
 
         position: absolute;
 
-        left: 8.5em;
+        left: 10em;
 
-        bottom: 3.5em;
+        bottom: 9em;
         
     }
 
