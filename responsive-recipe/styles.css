@@ -18,9 +18,9 @@ body {
 
     position: absolute;
 
-    width: 100vw;
+    width: 80vw;
 
-    height: 100vh;
+    height: 80vh;
 
 }
 
@@ -44,7 +44,7 @@ body {
 
         left: 1.2em;
 
-        bottom: 6em;
+        bottom: 9em;
 
     }
 
