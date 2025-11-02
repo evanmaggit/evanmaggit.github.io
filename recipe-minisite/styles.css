@@ -61,7 +61,7 @@ body {
 
     /* layout for recipe 2 */
 
-    #RecipeTitle2 h1 {
+    #PotatoTitle h1 {
         position: absolute;
         left: 1.3em;
         bottom: 0.9em;
@@ -69,31 +69,31 @@ body {
         width: calc(100vw - 2em);
  }
             
-    #RecipeExplain2 {
+    #PotatoAbstract {
         position: absolute;
         left: 1.2em;
         bottom: -.7em;
     }
 
-    #RecipeinT2 {
+    #PotatoInTitle {
         position: absolute;
         left: 8.5em;
         bottom: -3.2em;
     }
 
-    #Recipein2 {
+    #PotatoIn {
         position: absolute;
         left: 0.5em;
         bottom: -31em;
     }
 
-     #RecipeDT2 {
+     #PotatoDirTitle {
         position: absolute;
         left: 8.5em;
         bottom: -35.4em;
     }
 
-    #RecipeD2 {
+    #PotatoDir {
     position: absolute;
          left: 0.5em;
         bottom: -136.4em;
@@ -101,7 +101,7 @@ body {
 
     /* layout for recipe 3 */
 
-     #RecipeTitle3 h1 {
+     #CheeseTitle h1 {
         position: absolute;
         left: 1.3em;
         top: 11em;
@@ -109,31 +109,31 @@ body {
         width: calc(100vw - 2em);
  }
             
-    #RecipeExplain3 {
+    #CheeseAbstract {
         position: absolute;
         left: 1.2em;
         top: 34em;
     }
 
-    #RecipeinT3 {
+    #CheeseInTitle {
         position: absolute;
         left: 8.5em;
         top: 41em;
     }
 
-    #Recipein3 {
+    #CheeseIn {
         position: absolute;
         left: 0.5em;
         top: 44em;
     }
 
-     #RecipeDT3 {
+     #CheeseDirTitle {
         position: absolute;
         left: 8.5em;
         top: 54.5em;
     }
 
-    #RecipeD3 {
+    #CheeseDir {
     position: absolute;
          left: 0.5em;
         top: 57em;
@@ -155,43 +155,43 @@ body {
 
 @media screen and (orientation: landscape) {
 
-#RecipeTitle h1 {
+#ShrimpTitle h1 {
 position: absolute;
 left: 16.5em;
 Top: 0.8em;
 }
 
-#RecipeExplain {
+#ShrimpAbstract {
 position: absolute;
 left: 41em;
 top: 6.5em;
 }
 
-#RecipeinT {
+#ShrimpInTitle {
 position: absolute;
 left: 60em;
 top: 8.5em;
 }
 
-#Recipein {
+#ShrimpIn {
 position: absolute;
 left: 60em;
 top: 11em;
 }
 
-#RecipeDT {
+#ShrimpDirTitle {
 position: absolute;
 left: 1em;
 top: 29em;
 }
 
-#RecipeD {
+#ShrimpDir {
 position: absolute;
 left: 1em;
 top: 31.5em;
 }
 
-#Recipecopy footer {
+#ShrimpCopy {
 position: absolute;
 left: 65em;
 top: 47em;
@@ -213,7 +213,7 @@ top: 47em;
 
  /* layout for recipe 2 */
 
-#RecipeTitle2 h1 {
+#PotatoTitle h1 {
         position: absolute;
         left: 16.3em;
         top: 0.8em;
@@ -221,32 +221,32 @@ top: 47em;
         width: calc(100vw - 2em);
  }
             
-    #RecipeExplain2 {
+    #PotatoAbstract {
         position: absolute;
         top: 6em;
         left: 41em;
         bottom: 5.4em;
     }
 
-    #RecipeinT2 {
+    #PotatoInTitle {
         position: absolute;
         left: 70em;
         top: 10em;
     }
 
-    #Recipein2 {
+    #PotatoIn {
         position: absolute;
         left: 55em;
         top: 13em;
     }
 
-    #RecipeDT2 {
+    #PotatoDirTitle {
         position: absolute;
         left: 8.5em;
         top: 32.9em;
     }
 
-    #RecipeD2 {
+    #PotatoDir {
     position: absolute;
          left: -0.5em;
         top: 35.3em;
@@ -254,7 +254,7 @@ top: 47em;
 
     /* layout for recipe 3 */
 
-   #RecipeTitle3 h1 {
+   #CheeseTitle h1 {
         position: absolute;
         left: 21.7em;
         top: 1.3em;
@@ -262,31 +262,31 @@ top: 47em;
         width: calc(100vw - 2em);
    }
             
-    #RecipeExplain3 {
+    #CheeseAbstract {
         position: absolute;
         left: 50.2em;
         top: 7em;
     }
 
-    #RecipeinT3 {
+    #CheeseInTitle {
         position: absolute;
         left: 72em;
         top: 11.5em;
     }
 
-    #Recipein3 {
+    #CheeseIn {
         position: absolute;
        left: 72em;
         top: 13.7em;
     }
 
-    #RecipeDT3 {
+    #CheeseDirTitle {
         position: absolute;
         left: 4em;
         top: 27.7em;
     }
 
-    #RecipeD3 {
+    #CheeseDir {
     position: absolute;
          left: 0.5em;
         top: 30em;
