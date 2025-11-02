@@ -99,12 +99,6 @@ body {
         bottom: -136.4em;
     }
 
-    #Recipecopy2 footer {
-    position: absolute;
-        bottom: -140em;
-        left: 7em;
-    }
-
     /* layout for recipe 3 */
 
      #RecipeTitle3 h1 {
@@ -145,12 +139,6 @@ body {
         top: 57em;
     }
 
-    #Recipecopy3 footer {
-    position: absolute;
-        top: 109em;
-        left: 7em;
-    }
-
     /* rayout for home */
 
 #Title h1 {
@@ -158,7 +146,7 @@ body {
     top: 16em;
 }
 
-#Explain {
+#Description {
     position: absolute;
     top: 38em;
 }
@@ -207,6 +195,8 @@ top: 31.5em;
 position: absolute;
 left: 65em;
 top: 47em;
+}
+
 }
 
  /* rayout for home */
@@ -262,12 +252,6 @@ top: 47em;
         top: 35.3em;
     }
 
-    #Recipecopy2 footer {
-    position: absolute;
-        top: 68em;
-        left: 73.2em;
-    }
-
     /* layout for recipe 3 */
 
    #RecipeTitle3 h1 {
@@ -308,19 +292,12 @@ top: 47em;
         top: 30em;
     }
 
-    #Recipecopy3 footer {
-    position: absolute;
-       top: 45em;
-        left: 74em;
-    }
-}
-
 /* PUT THE REST OF THE DESKTOP BASELINE LAYOUT HERE */
 
 /* define variables */
 :root {
     --nav-height: 3rem;
-    --nav-bkgd-color: orange;
+    --nav-bkgd-color: rgb(132, 241, 30);
     --nav-text-color: black;
     --nav-hover-bkgd-color: lightgray;
     --nav-hover-text-color: black;
