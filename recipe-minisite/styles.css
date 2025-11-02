@@ -15,7 +15,7 @@ body {
     height: 100vh;
 }
 
-  #RecipeTitle h1 {
+  #ShrimpTitle h1 {
         position: absolute;
         left: 1.3em;
         bottom: 1.9em;
@@ -23,37 +23,37 @@ body {
         width: calc(100vw - 2em);
  }
             
-    #RecipeExplain {
+    #ShrimpAbstract {
         position: absolute;
         left: 1.2em;
         bottom: 2em;
     }
 
-    #RecipeinT {
+    #ShrimpInTitle {
         position: absolute;
         left: 8.5em;
         bottom: -0.4em;
     }
 
-    #Recipein {
+    #ShrimpIn {
         position: absolute;
         left: 0.5em;
         bottom: -26em;
     }
 
-    #RecipeDT {
+    #ShrimpDirTitle {
         position: absolute;
         left: 8.5em;
          bottom: -28.6em;
     }
 
-    #RecipeD {
+    #ShrimpDir {
     position: absolute;
          left: 0.5em;
         bottom: -70em;
     }
 
-    #Recipecopy footer {
+    #ShrimpCopy {
     position: absolute;
         bottom: -73em;
         left: 7em;
@@ -216,7 +216,7 @@ top: 47em;
     top: 16em;
 }
 
-#Explain {
+#Description {
     position: absolute;
     bottom: 10.5em;
 }
