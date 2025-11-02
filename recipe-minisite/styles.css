@@ -15,48 +15,78 @@ body {
     height: 100vh;
 }
 
-  #ShrimpTitle h1 {
+#ShrimpTitle h1 {
+
         position: absolute;
-        left: 1.3em;
-        bottom: 1.9em;
-        font-size: 2.5em;
+
+        left: 4em;
+
+        bottom: 5em;
+
+        font-size: 3em;
+
         width: calc(100vw - 2em);
+
  }
             
     #ShrimpAbstract {
+
         position: absolute;
-        left: 1.2em;
-        bottom: 2em;
+
+        left: 4em;
+
+        bottom: 6em;
+
     }
 
     #ShrimpInTitle {
+
         position: absolute;
-        left: 8.5em;
-        bottom: -0.4em;
+
+        left: 7em;
+
+        bottom: 10em;
+        
     }
 
     #ShrimpIn {
+
         position: absolute;
-        left: 0.5em;
-        bottom: -26em;
+
+        left: 7em;
+
+        top: 2em;
+
     }
 
     #ShrimpDirTitle {
+
         position: absolute;
-        left: 8.5em;
-         bottom: -28.6em;
+
+        left: 7em;
+
+        top: 62em;
+
     }
 
     #ShrimpDir {
+
     position: absolute;
-         left: 0.5em;
-        bottom: -70em;
+
+        left: 6em;
+
+        top: 64em;
+
     }
 
     #ShrimpCopy {
+
     position: absolute;
-        bottom: -73em;
-        left: 7em;
+
+        top: 107em;
+
+        left: 15em;
+
     }
 
     /* layout for recipe 2 */
@@ -156,45 +186,74 @@ body {
 @media screen and (orientation: landscape) {
 
 #ShrimpTitle h1 {
+
 position: absolute;
+
 left: 16.5em;
-Top: 0.8em;
+
+top: 0em;
+
 }
 
 #ShrimpAbstract {
+
 position: absolute;
-left: 41em;
+
+left: 40em;
+
 top: 6.5em;
+
 }
 
 #ShrimpInTitle {
+
 position: absolute;
-left: 60em;
-top: 8.5em;
+
+left: 50em;
+
+top: 14em;
+
 }
+ 
 
 #ShrimpIn {
+
 position: absolute;
-left: 60em;
-top: 11em;
+
+left: 35em;
+
+top: 17.5em;
+
 }
 
 #ShrimpDirTitle {
+
 position: absolute;
-left: 1em;
-top: 29em;
+
+left: 35em;
+
+top: 27em;
+
 }
 
 #ShrimpDir {
+
 position: absolute;
-left: 1em;
-top: 31.5em;
+
+left: 35em;
+
+top: 30em;
+
 }
 
-#ShrimpCopy {
+#ShrimpCopy footer {
+
 position: absolute;
-left: 65em;
-top: 47em;
+
+left: 35em;
+
+top: 55em;
+
 }
 
 }
