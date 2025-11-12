@@ -1,0 +1,135 @@
+/* mobile-first design for Pacific Rhododendron layout */
+
+* {
+
+    box-sizing: border-box;
+
+    font-family: Georgia, serif;
+
+}
+
+body {
+
+    padding: 0;
+
+    margin: 0;
+
+}
+
+header {
+
+    width: 100vw;
+
+    height: 100vh;
+
+}
+
+main {
+
+    width: 80%;
+
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    color: pink;
+
+    background-color: #330a23;
+
+}
+
+h2 {
+
+    font-size: 2rem;
+
+    font-style: italic;
+
+}
+
+#rhodiePicture {
+
+    position: absolute;
+
+    width: 100vw;
+
+    height: 100vh;
+
+    background-image: url("Pacific Rhododendron 3 - Gary Monroe-1.jpeg");
+
+    background-size: cover;
+
+    background-position: center center;
+
+}
+
+#rhodieTitle {
+
+    position: absolute;
+
+    width: 100vw;
+
+    height: 100vh;
+
+}
+
+#rhodieTitle h1 {
+
+    position: absolute;
+
+    bottom: 0;
+
+    left: 1em;
+
+    color: pink;
+
+    font-size: 4em;
+
+    width: calc(100vw - 2em);
+
+}
+
+@media screen and (orientation: landscape) {
+
+    #rhodiePicture {
+
+        width: 50vw;
+
+    }
+
+    #rhodieTitle {
+
+        width: 50vw;
+
+        left: 50vw;
+
+        background-color: #692a51;
+
+    }
+
+    #rhodieTitle h1 {
+
+        width: 50vw;
+
+    }
+    
+}
+
+#toggleDarkMode {
+
+    margin-top: 2em;
+
+}
+
+body.darkMode {
+
+    background-color: rgb(54, 13, 42);
+
+    color: pink;
+
+}
+
+body.darkMode h1 {
+
+    color: white;
+
+}
