@@ -1,0 +1,107 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+html, body {
+
+	padding: 0;
+
+	margin: 0;
+
+	font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1, h2, p {
+
+	padding: 0;
+
+	margin: 0;
+
+}
+
+main {
+
+    height: 500vh;
+
+    background-image: url("horror-background.jpg");
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-position: center top;
+
+}
+
+section {
+
+    position: relative;
+
+    height: 100vh;
+
+}
+
+section > .content {
+
+    position: absolute;
+
+    width: 42vw;
+
+    top: 20vh;
+
+    left: 4vw;
+
+}
+
+section > .content > p {
+
+    font-size: 2rem;
+
+    padding: 1rem;
+
+}
+
+section > .instructions {
+
+    position: absolute;
+
+    bottom: 2vh;
+
+    width: 42vw;
+
+    left: 4vw;
+
+    text-decoration: none;
+
+    text-transform: uppercase;
+
+    font-size: 1rem;
+
+    color: #8fc9ff;
+
+    padding-right: 1rem;
+
+}
+
+#section1 h1 {
+
+    font-size: 7rem;
+
+    line-height: 6rem;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-right: -0.4rem;
+
+    padding-right: 1rem;
+
+}
+
+#section1 p, #section1 h1, #section2 p, #section3 p, #section4 p, #section5 p {
+
+    background-color: #6de2ffbb;
+
+}
