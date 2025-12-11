@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Site Name – Home</title>
+
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+
+  <header class="site-header">
+
+    <div class="container header-inner">
+
+      <div class="logo">
+
+        <a href="index.html">The Classified Video Store</a>
+
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+
+          ☰
+
+        </button>
+
+        <ul id="nav-menu">
+
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="about.html">About</a></li>
+
+          <li><a href="guides.html">Film Guides</a></li>
+
+          <li><a href="essays.html">Essays</a></li>
+
+          <li><a href="influences.html">Influences</a></li>
+
+          <li><a href="notable.html">New & Notable</a></li>
+
+          <li><a href="genre.html" class="active">Genre History</a></li>
+
+          <li><a href="rent.html">Rentable List</a></li>
+
+          <li><a href="resources.html">Resources</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main class="site-main">
+
+    <section class="content-section">
+
+      <div class="container">
+
+        <h1>Genre History</h1>
+
+        <p class="intro-text">
+          The espionage thriller has shadowed geopolitical tensions for more than a century, transforming alongside
+          technology, ideology, and the cultural imagination of secrecy. Its cinematic evolution mirrors shifts in
+          global power, giving each era its own distinctive flavor of intrigue. </p>
+
+        <!-- Image Area -->
+
+        <div class="about-image-wrapper">
+
+          <img src="espionage 5.jpg"
+
+               alt="Historical espionage-themed imagery"
+
+               class="about-image" />
+
+        </div>
+
+        <h2>Early Roots: Silent Suspicion</h2>
+
+        <p> The espionage thriller first flickered to life in the silent era, when international tensions and coded
+          messages became irresistible material for visual storytelling. Early films toyed with disguises, intercepted
+          notes, and shadowy figures—simple devices that established the genre’s core fascination with deception and
+          dual identity. </p>
+
+        <h2>Post-Cold War Shifts</h2>
+
+        <p> With the Cold War’s end, filmmakers needed new narrative anchors. Espionage stories pivoted toward corporate
+          intrigue, rogue agencies, and internal corruption. These films often centered on bureaucratic power struggles,
+          technological vulnerability, and the difficulty of discerning who truly benefits from hidden operations. </p>
+
+        <h2>The Digital Age and Modern Surveillance</h2>
+
+        <p> As digital networks rewired the world, espionage thrillers adapted once again. The tension moved from locked
+          briefcases and dead drops to data breaches, cyber-operations, and omnipresent surveillance. The genre expanded
+          its visual language to include screens, signals, metadata, and remote threats—reflecting a society where
+          power is increasingly exercised through information rather than physical territory. </p>
+
+        <h2>What About Now...?</h2>
+
+        <p> Today’s espionage thriller is a hybrid of its predecessors: part psychological drama, part geopolitical
+          mirror, part technological fable. Its shape continues to change, but its central concern remains steady—
+          revealing the hidden forces that influence events from the shadows. </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <p>&copy; <span id="year"></span> The Classified Video Store. All rights reserved.</p>
+
+      <ul class="footer-links">
+
+        <li><a href="contact.html">Contact</a></li>
+
+      </ul>
+
+    </div>
+
+  </footer>
+
+  <script>
+
+    // Update year in footer
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Basic mobile nav toggle
+
+    const navToggle = document.querySelector('.nav-toggle');
+
+    const navMenu = document.getElementById('nav-menu');
+
+    navToggle.addEventListener('click', () => {
+
+      const isOpen = navToggle.getAttribute('aria-expanded') === 'true';
+
+      navToggle.setAttribute('aria-expanded', String(!isOpen));
+
+      navMenu.classList.toggle('open');
+
+    });
+
+  </script>
+
+</body>
+</html>
