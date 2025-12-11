@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Site Name – Resources</title>
+
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+
+  <header class="site-header">
+
+    <div class="container header-inner">
+
+      <div class="logo">
+
+        <a href="index.html">The Classified Video Store</a>
+
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+
+          ☰
+
+        </button>
+
+        <ul id="nav-menu">
+
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="about.html">About</a></li>
+
+          <li><a href="guides.html">Film Guides</a></li>
+
+          <li><a href="essays.html">Essays</a></li>
+
+          <li><a href="influences.html">Influences</a></li>
+
+          <li><a href="notable.html">New & Notable</a></li>
+
+          <li><a href="genre.html">Genre History</a></li>
+
+          <li><a href="rent.html">Rentable List</a></li>
+
+          <li><a href="resources.html" class="active">Resources</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main class="site-main">
+
+    <section class="content-section">
+
+      <div class="container">
+        
+        <h1>Resources</h1>
+
+        <p class="intro-text">
+          This page gathers helpful links for exploring the espionage thriller genre—its history, its narrative
+          techniques, and the evolving cultural forces that shape it. These resources offer a mix of scholarship,
+          analysis, and film discovery tools. </p>
+
+        <!-- Image area -->
+
+        <div class="about-image-wrapper">
+
+          <img src="esponiage 4.jpg"
+
+               alt="Espionage-themed resources imagery"
+
+               class="about-image" />
+
+        </div>
+
+        <h2>Where to Begin</h2>
+
+        <p> The espionage thriller genre stretches across decades of cinema, political shifts, and technological anxiety.
+          To study it, it helps to approach from several angles: academic writing, film databases, interviews with
+          filmmakers, and archives that explore the geopolitics behind covert operations. The links below provide a
+          starting point—broad enough to open the landscape, focused enough to give structure. </p>
+
+        <h2>External Links</h2>
+
+        <p> These sites provide articles, data, and insights that relate directly or indirectly to the espionage thriller tradition. </p>
+
+        <ul class="resource-links">
+
+          <li>
+
+            <a href="https://www.mi6-hq.com" target="_blank" rel="noopener">
+
+              MI6-HQ – Articles and analysis about spy cinema, particularly the James Bond series.
+
+            </a>
+          </li>
+
+          <li>
+
+            <a href="https://www.cia.gov/readingroom" target="_blank" rel="noopener">
+
+              CIA Reading Room – Declassified documents offering real-world context for espionage tropes.
+
+            </a>
+
+          </li>
+
+          <li>
+
+            <a href="https://www.bfi.org.uk" target="_blank" rel="noopener">
+
+              British Film Institute – Essays and archives covering global thriller and spy-film traditions.
+
+            </a>
+
+          </li>
+
+          <li>
+
+            <a href="https://www.loc.gov/collections" target="_blank" rel="noopener">
+
+              Library of Congress Collections – Historical materials that inform the political backdrop of the genre.
+
+            </a>
+
+          </li>
+
+          <li>
+
+            <a href="https://letterboxd.com" target="_blank" rel="noopener">
+
+              Letterboxd – User-curated espionage film lists for discovering classics and hidden gems.
+
+            </a>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <p>&copy; <span id="year"></span> The Classified Video Store. All rights reserved.</p>
+
+      <ul class="footer-links">
+
+        <li><a href="contact.html">Contact</a></li>
+
+      </ul>
+
+    </div>
+
+  </footer>
+
+  <script>
+
+    // Update year in footer
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Basic mobile nav toggle
+
+    const navToggle = document.querySelector('.nav-toggle');
+
+    const navMenu = document.getElementById('nav-menu');
+
+    navToggle.addEventListener('click', () => {
+
+      const isOpen = navToggle.getAttribute('aria-expanded') === 'true';
+
+      navToggle.setAttribute('aria-expanded', String(!isOpen));
+
+      navMenu.classList.toggle('open');
+
+    });
+
+  </script>
+
+</body>
+</html>
