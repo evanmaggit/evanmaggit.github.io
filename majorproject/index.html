@@ -1,91 +1,194 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
 
-	<!-- meta tags and title -->
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Recipe Mini-Site</title>
+  <meta charset="UTF-8" />
 
-	<!-- external and internal CSS -->
-	<link rel="stylesheet" href="styles.css" media="all">
-	<style>
-		/* in-file CSS here */
-	</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<!-- external and internal JavaScript -->
-	<script src="scripts.js" defer></script>
+  <title>Site Name – Home</title>
 
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css" />
 
 </head>
 
 <body>
 
-	<nav>
+  <header class="site-header">
 
-		<a id="navBurger">&#9776;</a>
+    <div class="container header-inner">
 
-		<ul>
+      <div class="logo">
 
-			<li><a href="index.html">Home</a></li>
+        <a href="index.html">Site Name</a>
 
-			<li><a href="#">My Recipes</a>
+      </div>
 
-				<ul>
-					<li><a href="recipe1.html">Shrimp Tempura Roll</a></li>
+      <nav class="main-nav" aria-label="Main navigation">
 
-					<li><a href="recipe2.html">Sweet Potato Casserole</a></li>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
 
-					<li><a href="recipe3.html">Mac-N-Cheese</a></li>
+          ☰
 
-				</ul>
+        </button>
 
-			</li>
+        <ul id="nav-menu">
 
-			<li><a href="#">Favorite Recipe Sites</a>
+          <li><a href="index.html" class="active">Home</a></li>
 
-				<ul>
+          <li><a href="page2.html">Page 2</a></li>
 
-					<li><a href="https://www.allrecipes.com/">Allrecipes</a></li>
+          <li><a href="page3.html">Page 3</a></li>
 
-					<li><a href="https://www.thechunkychef.com/">The Chunky Chef</a></li>
+          <li><a href="page4.html">Page 4</a></li>
 
-					<li><a href="https://www.dinneratthezoo.com/">Dinner At The Zoo</a></li>
+          <li><a href="page5.html">Page 5</a></li>
 
-				</ul>
+          <li><a href="page6.html">Page 6</a></li>
 
-			</li>
+          <li><a href="page7.html">Page 7</a></li>
 
-		</ul>
+          <li><a href="page8.html">Page 8</a></li>
 
-	</nav>
+          <li><a href="page9.html">Page 9</a></li>
 
-	<header>
+          <li><a href="page10.html">Page 10</a></li>
 
-		<div id="Title">
+        </ul>
 
-			<h1>Welcome to Evan's Espionage Thriller Store!</h1>
+      </nav>
 
-		</div>
+    </div>
 
-		<img src="home-page-mac.jpg">
+  </header>
 
-	</header>
+  <main class="site-main">
 
-	<main>
+    <!-- Hero / Intro section -->
 
-		<section id="Description">
+    <section class="hero">
 
-			<p>We've gotten three recipes for sushi, sweet potato casserole, and even mac-n-cheese.</p>
+      <div class="container">
 
-			<p>Click the categories and the sites above that were inspiriations behind the ingredients.</p>
+        <h1>Welcome to Site Name</h1>
 
-		</section>
+        <p> This is the home page. Use this area for a short intro or tagline
 
-	</main>
+          that explains the purpose of your website. </p>
 
+        <a href="page2.html" class="btn-primary">Get Started</a>
+
+      </div>
+
+    </section>
+
+    <!-- Example three-column feature section -->
+
+    <section class="features">
+
+      <div class="container">
+
+        <h2>Featured Sections</h2>
+
+        <div class="feature-grid">
+
+          <article class="feature-card">
+
+            <h3>Section One</h3>
+
+            <p> Short description of what visitors can find in this section. </p>
+
+            <a href="page3.html" class="text-link">Learn more →</a>
+
+          </article>
+
+          <article class="feature-card">
+
+            <h3>Section Two</h3>
+
+            <p> Another highlight or important area of your site. </p>
+
+            <a href="page4.html" class="text-link">Learn more →</a>
+
+          </article>
+
+          <article class="feature-card">
+
+            <h3>Section Three</h3>
+
+            <p> Use these cards to guide visitors deeper into your content. </p>
+
+            <a href="page5.html" class="text-link">Learn more →</a>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Example content section -->
+
+    <section class="content-section">
+
+      <div class="container">
+
+        <h2>About This Website</h2>
+
+        <p> Use this area for a brief overview of the site, your mission, or
+          whatever matters most to new visitors. You can expand this section
+          on a dedicated page later. </p>
+
+        <p> Replace this placeholder text with your real content. Keep
+          paragraphs short for readability. </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <p>&copy; <span id="year"></span> Site Name. All rights reserved.</p>
+
+      <ul class="footer-links">
+
+        <li><a href="page6.html">Contact</a></li>
+
+        <li><a href="page7.html">Privacy Policy</a></li>
+
+        <li><a href="page8.html">Terms of Use</a></li>
+
+      </ul>
+
+    </div>
+
+  </footer>
+
+  <!-- Optional small script to auto-update year + nav toggle -->
+
+  <script>
+    // Update year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Basic mobile nav toggle
+    const navToggle = document.querySelector('.nav-toggle');
+    const navMenu = document.getElementById('nav-menu');
+
+    navToggle.addEventListener('click', () => {
+      const isOpen = navToggle.getAttribute('aria-expanded') === 'true';
+      navToggle.setAttribute('aria-expanded', String(!isOpen));
+      navMenu.classList.toggle('open');
+    });
+  </script>
+  
 </body>
 
 </html>
