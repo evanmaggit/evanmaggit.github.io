@@ -410,3 +410,47 @@ body {
   }
 
 }
+
+/* About page image area */
+
+.about-image-wrapper {
+
+  margin: 2rem 0;
+
+  text-align: center;
+
+}
+
+.about-image {
+
+  max-width: 100%;
+
+  height: auto;
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 14px rgba(94, 0, 0, 0.685);
+
+}
+
+/* Slightly nicer intro spacing */
+
+.intro-text {
+
+  margin-bottom: 1.5rem;
+
+  font-size: 1.1rem;
+
+  max-width: 40rem;
+
+}
+
+/* Optional tweaks for the Film Guides grid */
+
+.film-guides-grid {
+
+  margin-top: 2rem;
+
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  
+}

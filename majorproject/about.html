@@ -1,16 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>CLASSIFIED – About</title>
+
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+
+  <header class="site-header">
+
+    <div class="container header-inner">
+
+      <div class="logo">
+
+        <a href="index.html">The Classified Video Store</a>
+
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+
+          ☰
+
+        </button>
+
+        <ul id="nav-menu">
+
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="about.html"class="active">About</a></li>
+
+          <li><a href="guides.html">Film Guides</a></li>
+
+          <li><a href="essays.html">Essays</a></li>
+
+          <li><a href="influences.html">Influences</a></li>
+
+          <li><a href="notable.html">New & Notable</a></li>
+
+          <li><a href="genre.html">Genre History</a></li>
+
+          <li><a href="rent.html">Rentable List</a></li>
+
+          <li><a href="resources.html">Resources</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main class="site-main">
+
     <section class="content-section">
 
       <div class="container">
 
-        <h2>About This Website</h2>
+        <h1>About Us</h1>
 
-        <p> Use this area for a brief overview of the site, your mission, or
-          whatever matters most to new visitors. You can expand this section
-          on a dedicated page later. </p>
+        <p class="intro-text">
 
-        <p> Replace this placeholder text with your real content. Keep
-          paragraphs short for readability. </p>
+          This page offers visitors a closer look at the reasoning behind this topic having an entire webiste.
+
+        </p>
+
+        <!-- Image area -->
+
+        <div class="about-image-wrapper">
+
+          <img src="IMG_0004.jpeg" alt="About our company" class="about-image" />
+
+        </div>
+
+        <h2>The Reasoning</h2>
+
+        <p> Out of the many options to make a website for my Web Design and Development site, I wanted to do something related to entertainment. </p>
+
+        <p> Me and many other people love thriller films and shows, so I thought making a site about or fascination about the genre would be challenging and fun. </p>
+
+        <h2>The Mission</h2>
+
+        <p> I hope that after looking through this glorious site, you get to see a plethora of films that you might want to watch, history you never know, 
+            
+            and other ways of fascination about this genre of storytelling. </p>
+
+        <h2>The Guy</h2>
+
+        <p> Evan Maggit, who's a student at Washington State University, and is majoring in Digital Technology and Culture. I love movies, games, and soda. </p>
 
       </div>
 
     </section>
+
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <p>&copy; <span id="year"></span> The Classified Video Store. All rights reserved.</p>
+
+      <ul class="footer-links">
+
+        <li><a href="contact.html">Contact</a></li>
+
+      </ul>
+
+    </div>
+
+  </footer>
+
+  <script>
+
+    // Update year in footer
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Basic mobile nav toggle
+
+    const navToggle = document.querySelector('.nav-toggle');
+
+    const navMenu = document.getElementById('nav-menu');
+
+    navToggle.addEventListener('click', () => {
+
+      const isOpen = navToggle.getAttribute('aria-expanded') === 'true';
+
+      navToggle.setAttribute('aria-expanded', String(!isOpen));
+
+      navMenu.classList.toggle('open');
+
+    });
+
+  </script>
+
+</body>
+
+</html>
