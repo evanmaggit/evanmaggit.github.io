@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Film Guides</title>
+
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+
+  <header class="site-header">
+
+    <div class="container header-inner">
+
+      <div class="logo">
+
+        <a href="index.html">Espionage Thrillers</a>
+
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+
+          ☰
+
+        </button>
+
+        <ul id="nav-menu">
+
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="about.html">About</a></li>
+
+          <li><a href="guides.html" class="active">Film Guides</a></li>
+
+          <li><a href="essays.html">Essays</a></li>
+
+          <li><a href="influences.html">Influences</a></li>
+
+          <li><a href="notable.html">New & Notable</a></li>
+
+          <li><a href="genre.html">Genre History</a></li>
+
+          <li><a href="rent.html">Rentable List</a></li>
+
+          <li><a href="resources.html">Resources</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main class="site-main">
+
+    <section class="content-section">
+
+      <div class="container">
+
+        <h1>Film Guides</h1>
+
+        <p class="intro-text">
+
+          A curated set of breakdowns and analyses that explore the hidden mechanics of the espionage thriller genre—from Cold War cat-and-mouse pursuits to modern tales of digital infiltration. </p>
+
+        <!-- Page image -->
+
+        <div class="about-image-wrapper">
+
+          <img 
+
+            src="espionage 1.jpg"
+
+            alt="Espionage-themed illustration"
+
+            class="about-image"
+
+          />
+
+        </div>
+
+        <h2>What Defines an Espionage Thriller?</h2>
+
+        <p> Espionage thrillers thrive on tension built from secrets—who keeps them, who steals them,
+          and how those secrets influence the world around them. A film in this genre rarely reveals
+          its full hand at once. Instead, it deals in slow-drip revelations, coded messages, and the
+          quiet dread of knowing that someone, somewhere, is always watching. </p>
+
+        <p> A hallmark of the genre is its sense of ambiguity. Characters often operate in moral gray
+          zones, carrying righteous intentions and questionable methods in the same breath. This
+          mixture of purpose and uncertainty gives the audience a lingering unease—exactly the
+          sensation espionage stories are built to evoke. </p>
+
+        <h2>How to Recognize the Core Elements</h2>
+
+        <p> When you watch a potential espionage thriller, pay attention to the structure of
+          information. If the film treats knowledge itself as both a weapon and a liability, you're
+          likely in the right place. Surveillance, hidden agendas, and double identities tend to
+          shape the narrative arc, pulling the viewer into a maze where every clue is a potential
+          misdirection. </p>
+
+        <p> Setting also plays a crucial role. The genre favors liminal spaces—border crossings,
+          diplomatic corridors, anonymous hotel rooms, or corporate hallways where confidential
+          deals are sealed with a handshake. These environments aren’t just backgrounds; they're
+          pressure chambers designed to amplify the stakes. </p>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <p>&copy; <span id="year"></span> The Classified Video Store. All rights reserved.</p>
+
+      <ul class="footer-links">
+
+        <li><a href="contact.html">Contact</a></li>
+
+      </ul>
+
+    </div>
+
+  </footer>
+
+  <script>
+
+    // Update year in footer
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Basic mobile nav toggle
+
+    const navToggle = document.querySelector('.nav-toggle');
+
+    const navMenu = document.getElementById('nav-menu');
+
+    navToggle.addEventListener('click', () => {
+
+      const isOpen = navToggle.getAttribute('aria-expanded') === 'true';
+
+      navToggle.setAttribute('aria-expanded', String(!isOpen));
+
+      navMenu.classList.toggle('open');
+
+    });
+
+  </script>
+
+</body>
+
+</html>
