@@ -23,7 +23,7 @@
 
       <div class="logo">
 
-        <a href="index.html">Site Name</a>
+        <a href="index.html">The Classified Video Store</a>
 
       </div>
 
@@ -39,23 +39,23 @@
 
           <li><a href="index.html" class="active">Home</a></li>
 
-          <li><a href="page2.html">Page 2</a></li>
+          <li><a href="about.html">About</a></li>
 
-          <li><a href="page3.html">Page 3</a></li>
+          <li><a href="guides.html">Film Guides</a></li>
 
-          <li><a href="page4.html">Page 4</a></li>
+          <li><a href="essays.html">Essays</a></li>
 
-          <li><a href="page5.html">Page 5</a></li>
+          <li><a href="influences.html">Influences</a></li>
 
-          <li><a href="page6.html">Page 6</a></li>
+          <li><a href="notable.html">New & Notable</a></li>
 
-          <li><a href="page7.html">Page 7</a></li>
+          <li><a href="genre.html">Genre History</a></li>
 
-          <li><a href="page8.html">Page 8</a></li>
+          <li><a href="rent.html">Rentable List</a></li>
 
-          <li><a href="page9.html">Page 9</a></li>
+          <li><a href="resources.html">Resources</a></li>
 
-          <li><a href="page10.html">Page 10</a></li>
+          <li><a href="contact.html">Contact</a></li>
 
         </ul>
 
@@ -73,13 +73,12 @@
 
       <div class="container">
 
-        <h1>Welcome to Site Name</h1>
+        <h1>Welcome to the "CLASSIFIED" Video Store</h1>
 
-        <p> This is the home page. Use this area for a short intro or tagline
+        <p> This is the site for anyone who's interested in going undercover with
+            learning about the very niche but widely beloved genre of the "espionage thriller". </p>
 
-          that explains the purpose of your website. </p>
-
-        <a href="page2.html" class="btn-primary">Get Started</a>
+        <a href="about.html" class="btn-primary">Learn More</a>
 
       </div>
 
@@ -91,60 +90,41 @@
 
       <div class="container">
 
-        <h2>Featured Sections</h2>
+        <h2>Main Pages</h2>
 
         <div class="feature-grid">
 
           <article class="feature-card">
 
-            <h3>Section One</h3>
+            <h3>Genre History</h3>
 
-            <p> Short description of what visitors can find in this section. </p>
+            <p> It's a detailed page about the years of the espionage thriller genre. </p>
 
-            <a href="page3.html" class="text-link">Learn more →</a>
-
-          </article>
-
-          <article class="feature-card">
-
-            <h3>Section Two</h3>
-
-            <p> Another highlight or important area of your site. </p>
-
-            <a href="page4.html" class="text-link">Learn more →</a>
+            <a href="genre.html" class="text-link">Learn more=</a>
 
           </article>
 
           <article class="feature-card">
 
-            <h3>Section Three</h3>
+            <h3>Influences</h3>
 
-            <p> Use these cards to guide visitors deeper into your content. </p>
+            <p> It's about the cinematic influence that the genre has. </p>
 
-            <a href="page5.html" class="text-link">Learn more →</a>
+            <a href="influences.html" class="text-link">Learn more</a>
+
+          </article>
+
+          <article class="feature-card">
+
+            <h3>Essays</h3>
+
+            <p> Think pieces about what the thriller genre means to most. </p>
+
+            <a href="essays.html" class="text-link">Learn more</a>
 
           </article>
 
         </div>
-
-      </div>
-
-    </section>
-
-    <!-- Example content section -->
-
-    <section class="content-section">
-
-      <div class="container">
-
-        <h2>About This Website</h2>
-
-        <p> Use this area for a brief overview of the site, your mission, or
-          whatever matters most to new visitors. You can expand this section
-          on a dedicated page later. </p>
-
-        <p> Replace this placeholder text with your real content. Keep
-          paragraphs short for readability. </p>
 
       </div>
 
@@ -156,15 +136,11 @@
 
     <div class="container footer-inner">
 
-      <p>&copy; <span id="year"></span> Site Name. All rights reserved.</p>
+      <p>&copy; <span id="year"></span> The Classified Video Store. All rights reserved.</p>
 
       <ul class="footer-links">
 
-        <li><a href="page6.html">Contact</a></li>
-
-        <li><a href="page7.html">Privacy Policy</a></li>
-
-        <li><a href="page8.html">Terms of Use</a></li>
+        <li><a href="contact.html">Contact</a></li>
 
       </ul>
 
@@ -172,23 +148,30 @@
 
   </footer>
 
-  <!-- Optional small script to auto-update year + nav toggle -->
-
   <script>
+
     // Update year in footer
+
     document.getElementById('year').textContent = new Date().getFullYear();
 
     // Basic mobile nav toggle
+
     const navToggle = document.querySelector('.nav-toggle');
+
     const navMenu = document.getElementById('nav-menu');
 
     navToggle.addEventListener('click', () => {
+
       const isOpen = navToggle.getAttribute('aria-expanded') === 'true';
+
       navToggle.setAttribute('aria-expanded', String(!isOpen));
+
       navMenu.classList.toggle('open');
+
     });
+
   </script>
-  
+
 </body>
 
 </html>
