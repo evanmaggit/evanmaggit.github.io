@@ -14,7 +14,7 @@ html, body {
 
 }
 
-h1, h2, p {
+h1, p {
 
 	padding: 0;
 
@@ -61,28 +61,6 @@ section > .content > p {
     font-size: 2rem;
 
     padding: 1rem;
-
-}
-
-section > .instructions {
-
-    position: absolute;
-
-    bottom: 2vh;
-
-    width: 42vw;
-
-    left: 4vw;
-
-    text-decoration: none;
-
-    text-transform: uppercase;
-
-    font-size: 1rem;
-
-    color: #8fc9ff;
-
-    padding-right: 1rem;
 
 }
 
