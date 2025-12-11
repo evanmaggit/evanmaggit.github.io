@@ -12,13 +12,11 @@ body {
 
   );
 
-  box-sizing: border-box;
-
   margin: 0;
 
-  padding: 0;
+  padding-left: 2em;
 
- font-family: "Times New Roman", Times, serif;
+  font-family: "Roboto Mono", serif;
 
   color: #00240b;
 
