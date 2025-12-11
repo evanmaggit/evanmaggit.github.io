@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Site Name – Home</title>
+
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+
+  <header class="site-header">
+
+    <div class="container header-inner">
+
+      <div class="logo">
+
+        <a href="index.html">The Classified Video Store</a>
+
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+
+          ☰
+
+        </button>
+
+        <ul id="nav-menu">
+
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="about.html">About</a></li>
+
+          <li><a href="guides.html">Film Guides</a></li>
+
+          <li><a href="essays.html">Essays</a></li>
+
+          <li><a href="influences.html">Influences</a></li>
+
+          <li><a href="notable.html" class="active">New & Notable</a></li>
+
+          <li><a href="genre.html">Genre History</a></li>
+
+          <li><a href="rent.html">Rentable List</a></li>
+
+          <li><a href="resources.html">Resources</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main class="site-main">
+
+    <section class="content-section">
+
+      <div class="container">
+
+        <h1>New & Notable</h1>
+
+        <p class="intro-text">
+          The espionage thriller continues to evolve in surprising directions. Recent films explore shifting power
+          structures, digital-age anxieties, and new interpretations of the lone-operative myth. This section highlights
+          a few of the more intriguing entries shaping the genre’s current landscape. For example: David Fincher's "The Killer".</p>
+
+        <!-- Image Area -->
+
+        <div class="about-image-wrapper">
+
+          <img src="espionage 7.jpg"
+
+               alt="Espionage thriller new releases imagery"
+
+               class="about-image" />
+
+        </div>
+
+        <h2>The Killer (2023)</h2>
+
+        <p> David Fincher’s *The Killer* (2023) occupies an unusual space in contemporary spy-adjacent storytelling.
+          While not a traditional espionage thriller in structure, the film borrows heavily from the genre’s psychological
+          toolkit: a solitary professional trained to disappear, a mission defined by precision and paranoia, and a world
+          where the smallest oversight spirals into existential danger. Its cool, procedural rhythms echo the lineage of
+          European spy cinema—stories about discipline eroding under pressure, and the cost of maintaining a life built
+          on secrecy. </p>
+
+        <p> What makes *The Killer* notable within the broader espionage tradition is its focus on internal conflict.
+          Rather than tracking geopolitical stakes, the film narrows its attention to a single operative wrestling with
+          the consequences of failure. This introspective bent aligns with the genre’s recent shift toward character-driven
+          tension, where emotional exposure becomes as risky as tactical missteps. </p>
+
+        <h2>Recent Expansions of the Genre</h2>
+
+        <p> The last few years have brought a wave of thrillers that blur the line between spycraft, corporate secrecy,
+          surveillance culture, and global conspiracy. These films often trade classic trench coats and cold-war rooftops
+          for digital tunnels, encrypted messages, and conflicts shaped by unseen networks rather than nation-states. </p>
+
+        <p> This shift doesn’t diminish the genre’s appeal—it broadens it. Viewers now encounter protagonists navigating
+          data leaks, offshore intelligence contractors, or covert operations waged without borders. The core mechanics
+          of the spy thriller remain intact: secrecy, betrayal, information as power. But the texture has changed,
+          reflecting a world where influence is often exercised quietly and remotely. </p>
+
+        <h2>What to Watch For Next</h2>
+
+        <p> As streaming platforms and international studios invest more heavily in political and espionage-themed content,
+          the genre’s future is likely to be even more global. Cross-border narratives, linguistically diverse casts,
+          and hybrid genres—half spy story, half psychological drama—are increasingly common. The next wave of notable
+          releases will likely deepen this trend, offering stories that feel both contemporary and timeless. </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <p>&copy; <span id="year"></span> The Classified Video Store. All rights reserved.</p>
+
+      <ul class="footer-links">
+
+        <li><a href="contact.html">Contact</a></li>
+
+      </ul>
+
+    </div>
+
+  </footer>
+
+  <script>
+
+    // Update year in footer
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Basic mobile nav toggle
+
+    const navToggle = document.querySelector('.nav-toggle');
+
+    const navMenu = document.getElementById('nav-menu');
+
+    navToggle.addEventListener('click', () => {
+
+      const isOpen = navToggle.getAttribute('aria-expanded') === 'true';
+
+      navToggle.setAttribute('aria-expanded', String(!isOpen));
+
+      navMenu.classList.toggle('open');
+
+    });
+
+  </script>
+
+</body>
+</html>
