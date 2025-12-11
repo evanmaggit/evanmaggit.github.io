@@ -1,0 +1,35 @@
+body {
+
+  background: linear-gradient(
+
+    135deg,
+
+    #acffcf 0%,
+
+    #33a173 50%,
+
+    #096830 100%
+
+  );
+
+  margin: 0;
+
+  padding: 0;
+
+ font-family: "Times New Roman", Times, serif;
+
+  color: #00240b;
+
+  line-height: 1.6;
+
+}
+
+h1, h2, h3 {
+
+  font-family: "Georgia", serif;
+
+  letter-spacing: 0.5px;
+
+  color: #003d12;
+
+}
