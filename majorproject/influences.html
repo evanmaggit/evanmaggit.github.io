@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Site Name – Home</title>
+
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+
+  <header class="site-header">
+
+    <div class="container header-inner">
+
+      <div class="logo">
+
+        <a href="index.html">The Classified Video Store</a>
+
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+
+          ☰
+
+        </button>
+
+        <ul id="nav-menu">
+
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="about.html">About</a></li>
+
+          <li><a href="guides.html">Film Guides</a></li>
+
+          <li><a href="essays.html">Essays</a></li>
+
+          <li><a href="influences.html" class="active">Influences</a></li>
+
+          <li><a href="notable.html">New & Notable</a></li>
+
+          <li><a href="genre.html">Genre History</a></li>
+
+          <li><a href="rent.html">Rentable List</a></li>
+
+          <li><a href="resources.html">Resources</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main class="site-main">
+
+    <section class="content-section">
+
+      <div class="container">
+
+        <h1>Influences</h1>
+
+        <p class="intro-text">
+          Espionage thrillers have shaped global pop culture for decades, blending style, intrigue, and technology into
+          a shared cinematic vocabulary. Their influence appears everywhere—from blockbuster franchises to the way audiences
+          imagine secrecy, power, and international conflict. </p>
+
+        <!-- Image Area -->
+
+        <div class="about-image-wrapper">
+
+          <img src="espionage 8.jpg"
+
+               alt="Espionage influence imagery"
+
+               class="about-image" />
+
+        </div>
+
+        <h2>The Bond Blueprint</h2>
+
+        <p> No character looms larger over the espionage thriller’s cultural footprint than James Bond. Since the early 1960s,
+          Bond has shaped expectations about the genre’s glamour, gadgets, and globe-spanning adventure. These films
+          introduced an irresistible combination of high style and danger, creating a template that countless imitators
+          and reinventions still respond to. The Bond archetype—an agent navigating luxury and peril with equal ease—remains
+          a defining piece of cultural mythology. </p>
+
+        <h2>Mission: Impossible and the Reinvention of Teamwork</h2>
+
+        <p> While Bond often acts alone, *Mission: Impossible* reframed the thriller as a precise, collaborative machine.
+          Its emphasis on team dynamics, elaborate heists, and identity-shifting masks reshaped popular ideas about spycraft.
+          These films injected a new physical intensity into the genre, blending espionage tension with action spectacle.
+          The result broadened what mainstream audiences expect from modern spy narratives. </p>
+
+        <h2>Television’s Expanding Influence</h2>
+
+        <p> Espionage thrillers also thrive in long-form storytelling. Series like *The Americans*, *Tinker Tailor Soldier Spy*
+          (in both its TV and film versions), and *Homeland* cultivate slow-burn psychological tension, offering space to
+          explore loyalty, betrayal, and ideological drift with greater nuance. Their success illustrates how deeply audiences
+          resonate with stories built around secrecy and shifting identity. </p>
+
+        <h2>A Global Cultural Imprint</h2>
+
+        <p> The genre’s reach extends far beyond Western franchises. Espionage thrillers in Europe, Asia, and the Middle East
+          have used the framework to explore national histories, political unrest, and covert power struggles. These works
+          show how adaptable the genre is—how it reshapes itself to mirror different cultures’ anxieties and aspirations. </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <p>&copy; <span id="year"></span> The Classified Video Store. All rights reserved.</p>
+
+      <ul class="footer-links">
+
+        <li><a href="contact.html">Contact</a></li>
+
+      </ul>
+
+    </div>
+
+  </footer>
+
+  <script>
+
+    // Update year in footer
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Basic mobile nav toggle
+
+    const navToggle = document.querySelector('.nav-toggle');
+
+    const navMenu = document.getElementById('nav-menu');
+
+    navToggle.addEventListener('click', () => {
+
+      const isOpen = navToggle.getAttribute('aria-expanded') === 'true';
+
+      navToggle.setAttribute('aria-expanded', String(!isOpen));
+
+      navMenu.classList.toggle('open');
+
+    });
+
+  </script>
+
+</body>
+
+</html>
