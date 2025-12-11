@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Site Name – Home</title>
+
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+
+  <header class="site-header">
+
+    <div class="container header-inner">
+
+      <div class="logo">
+
+        <a href="index.html">The Classified Video Store</a>
+
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+
+          ☰
+
+        </button>
+
+        <ul id="nav-menu">
+
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="about.html">About</a></li>
+
+          <li><a href="guides.html">Film Guides</a></li>
+
+          <li><a href="essays.html">Essays</a></li>
+
+          <li><a href="influences.html">Influences</a></li>
+
+          <li><a href="notable.html">New & Notable</a></li>
+
+          <li><a href="genre.html">Genre History</a></li>
+
+          <li><a href="rent.html" class="active">Rentable List</a></li>
+
+          <li><a href="resources.html">Resources</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main class="site-main">
+
+    <section class="content-section">
+
+      <div class="container">
+
+        <h1>Rentable List</h1>
+
+        <p class="intro-text">
+          For anyone looking to dive deeper into espionage thrillers, this curated Letterboxd list brings together
+          influential films across eras—spanning Cold War paranoia, modern surveillance anxieties, and everything in between.
+          Use it as a viewing roadmap, a research tool, or simply a place to discover new favorites. </p>
+
+        <!-- Image Area -->
+
+        <div class="about-image-wrapper">
+
+          <img src="espionage 6.jpg"
+
+               alt="Letterboxd espionage films imagery"
+
+               class="about-image" />
+
+        </div>
+
+        <h2>Explore the List</h2>
+
+        <p> The list is updated periodically as new films reshape the genre and older titles re-emerge with fresh relevance.
+          You can find it here: </p>
+
+        <!-- Single Link -->
+
+        <p>
+
+          <a href="https://boxd.it/HmZwY$p3NdbmP3SGlkXkCR" target="_blank" rel="noopener" class="text-link">
+
+            Visit the Espionage Thriller Letterboxd List →
+
+          </a>
+
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Site Name. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="page9.html">Privacy Policy</a></li>
+        <li><a href="page10.html">Terms of Use</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const navToggle = document.querySelector('.nav-toggle');
+    const navMenu = document.getElementById('nav-menu');
+
+    navToggle.addEventListener('click', () => {
+      const isOpen = navToggle.getAttribute('aria-expanded') === 'true';
+      navToggle.setAttribute('aria-expanded', String(!isOpen));
+      navMenu.classList.toggle('open');
+    });
+  </script>
+
+</body>
+</html>
