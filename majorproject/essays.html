@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Site Name – Home</title>
+
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+
+  <header class="site-header">
+
+    <div class="container header-inner">
+
+      <div class="logo">
+
+        <a href="index.html">The Classified Video Store</a>
+
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+
+          ☰
+
+        </button>
+
+        <ul id="nav-menu">
+
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="about.html">About</a></li>
+
+          <li><a href="guides.html">Film Guides</a></li>
+
+          <li><a href="essays.html" class="active">Essays</a></li>
+
+          <li><a href="influences.html">Influences</a></li>
+
+          <li><a href="notable.html">New & Notable</a></li>
+
+          <li><a href="genre.html">Genre History</a></li>
+
+          <li><a href="rent.html">Rentable List</a></li>
+
+          <li><a href="resources.html">Resources</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+  <main class="site-main">
+    <section class="content-section">
+      <div class="container">
+
+        <h1>Essays on the Espionage Thriller</h1>
+        <p class="intro-text">
+          This collection explores the evolving language of the espionage thriller—how it shapes our expectations,
+          how it adapts to cultural anxieties, and why it continues to entice audiences with its blend of intrigue
+          and uncertainty.
+        </p>
+
+        <!-- Image area -->
+        <div class="about-image-wrapper">
+          <img src="images/essays-placeholder.jpg"
+               alt="Espionage-themed imagery"
+               class="about-image" />
+        </div>
+
+        <h2>The Clockwork of Suspicion</h2>
+        <p>
+          Espionage thrillers function like precision instruments, built to measure the tension between what is seen
+          and what is deliberately obscured. Their stories revolve around the simple truth that people seldom reveal
+          their full intentions. A character may speak plainly, move calmly, even behave predictably—but the genre
+          cues us to assume that something crucial lies beneath the surface. This expectation turns every gesture into
+          a possible clue and every silence into a potential threat.
+        </p>
+
+        <p>
+          As the genre has matured, it has shifted from glamorous tales of agents in tailored suits to more grounded
+          explorations of surveillance, moral compromise, and institutional secrecy. Yet the core mechanism remains the
+          same: the viewer steps into a world where trust is provisional, motives are layered, and truth arrives only in
+          fragments. That steady drip of revelation keeps the audience leaning forward, piecing together meaning one
+          implication at a time.
+        </p>
+
+        <p>
+          The espionage thriller persists because it reflects the way we navigate real worlds—corporate,
+          political, or personal—where incomplete information shapes every decision. The genre simply sharpens
+          this reality, presenting it as a heightened puzzle whose pieces click together with satisfying, tense clarity.
+        </p>
+
+        <!-- Essay links section -->
+        <h2>More Essays</h2>
+        <p>Explore additional writings on the craft, history, and psychology of espionage thrillers:</p>
+
+        <ul class="essay-links">
+          <li><a href="essay-deception.html">The Art of Narrative Deception</a></li>
+          <li><a href="essay-surveillance.html">How Surveillance Shapes Modern Thrillers</a></li>
+          <li><a href="essay-moral-grey.html">Morality in the Shadows: Heroes With Compromise</a></li>
+          <li><a href="essay-global.html">From Cold War to Cyber War: The Genre's Shifting Landscape</a></li>
+        </ul>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <p>&copy; <span id="year"></span> The Classified Video Store. All rights reserved.</p>
+
+      <ul class="footer-links">
+
+        <li><a href="contact.html">Contact</a></li>
+
+      </ul>
+
+    </div>
+
+  </footer>
+
+  <script>
+
+    // Update year in footer
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Basic mobile nav toggle
+
+    const navToggle = document.querySelector('.nav-toggle');
+
+    const navMenu = document.getElementById('nav-menu');
+
+    navToggle.addEventListener('click', () => {
+
+      const isOpen = navToggle.getAttribute('aria-expanded') === 'true';
+
+      navToggle.setAttribute('aria-expanded', String(!isOpen));
+
+      navMenu.classList.toggle('open');
+
+    });
+
+  </script>
+
+</body>
+</html>

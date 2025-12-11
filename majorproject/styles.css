@@ -444,3 +444,32 @@ body {
   max-width: 40rem;
 
 }
+
+/* Contact form styling */
+.contact-form {
+  margin-top: 1.5rem;
+  max-width: 500px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #0073ff;
+  box-shadow: 0 0 0 2px rgba(0, 115, 255, 0.15);
+}
