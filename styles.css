@@ -1,0 +1,127 @@
+/* styles for repository homepage from TP2*/
+
+/* simple box sizing*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* styling for the body*/
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* header styles */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #3f8168;
+    text-transform: uppercase;
+}
+
+/* section styles */
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+/* section headings */
+h2 {
+    font-size: 1.5rem;
+    color: #345e4d;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* paragraph styles */
+p {
+    margin-bottom: 10px;
+}
+
+/* link styles */
+a {
+    color: #3d31ca;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* list styles */
+ol {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* image styles */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* block styles and fun sections */
+main {
+    display: flex;
+    flex-wrap: wrap;          
+    gap: 20px;                
+}
+
+#courseworkLinks,
+#randomQuestion,
+#boringFact,
+#slangThatNeedsToGo {
+    flex: 1 1 48%;            
+    min-width: 250px;          
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    display: flex;             
+    flex-direction: column;    
+}
+
+@media (max-width: 700px) {
+    #courseworkLinks,
+    #randomQuestion,
+    #boringFact,
+    #slangThatNeedsToGo {
+        flex: 1 1 100%;  
+    }
+}
+
+/* block hover effect */
+#courseworkLinks,
+#randomQuestion,
+#boringFact,
+#slangThatNeedsToGo,
+#interestingArticle,
+#coolPic {
+    transition: box-shadow 0.3s ease, transform 0.3s ease; 
+}
+
+#courseworkLinks:hover,
+#randomQuestion:hover,
+#boringFact:hover,
+#slangThatNeedsToGo:hover,
+#interestingArticle:hover,
+#coolPic:hover {
+    box-shadow: 0 6px 20px rgba(139, 69, 19, 0.6); 
+    transform: translateY(-5px); 
+}
