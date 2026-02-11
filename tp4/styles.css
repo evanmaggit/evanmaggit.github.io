@@ -1,0 +1,63 @@
+/* styles for the TP4: Tic-Tac-Toe project */
+
+@import url('https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap');
+
+:root {
+
+    --gameBoardSize: 80vh;
+
+    --gameBoardSpacer: 15px;
+
+}
+
+#gameBoard {
+
+    position: relative;
+
+    width: calc( var(--gameBoardSize) - var(--gameBoardSpacer) );
+
+    height: calc( var(--gameBoardSize) - var(--gameBoardSpacer) );
+
+    background-color: black;
+
+}
+
+.row {
+
+    position: relative;
+
+    float: left;
+
+    width: var(--gameBoardSize);
+
+    height: calc( ( var(--gameBoardSize) / 3 ) - var(--gameBoardSpacer) );
+
+    margin-bottom: var(--gameBoardSpacer);
+
+}
+
+.gameSpace {
+
+    position: relative;
+
+    float: left;
+
+    background-color: white;
+
+    width: calc( ( var(--gameBoardSize) / 3 ) - var(--gameBoardSpacer) );
+
+    height: calc( ( var(--gameBoardSize) / 3 ) - var(--gameBoardSpacer) );
+
+    margin-right: var(--gameBoardSpacer);
+
+    font-family: "Twinkle Star";
+
+    font-size: 10rem;
+
+    overflow: hidden;
+
+    text-align: center;
+
+    text-transform: uppercase;
+    
+}
