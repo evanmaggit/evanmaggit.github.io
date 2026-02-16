@@ -64,7 +64,7 @@ main {
 
     position: absolute;
 
-    font-size: 5rem;
+    font-size: 8rem;
 
     left: 1rem;
 
@@ -78,7 +78,7 @@ main {
 
     left: 1rem;
 
-    font-size: 2rem;
+    font-size: 4rem;
 
 }
 
@@ -94,6 +94,8 @@ main {
 
     border-right: 1px solid white;
 
+    font-size: 8rem;
+
 }
 
 #currentWind {
@@ -105,6 +107,8 @@ main {
     background-color: rgb(211, 211, 211);
 
     border-bottom: 1px solid white;
+
+    font-size: 8rem;
 
 }
 
@@ -123,6 +127,8 @@ main {
     scrollbar-width: none;
 
     -ms-overflow-style: none;
+
+    font-size: 8rem;
 
 }
 
