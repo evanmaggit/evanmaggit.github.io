@@ -96,55 +96,57 @@ body {
 
 .pair1 .cardBottom {
 
-  --s: 150px; /* control the size*/
+  --s: 65px;
 
-  --c1: #f7d2a1;
+  --c1: #b2b2b2;
 
-  --c2: #05057e;
+  --c2: #ffffff;
+
+  --c3: #d9d9d9;
   
-  --_g: 
-
-     var(--c1) 0%  5% ,var(--c2) 6%  15%,var(--c1) 16% 25%,var(--c2) 26% 35%,var(--c1) 36% 45%,
-
-     var(--c2) 46% 55%,var(--c1) 56% 65%,var(--c2) 66% 75%,var(--c1) 76% 85%,var(--c2) 86% 95%,
-
-     #0000 96%;
+  --_g: var(--c3) 0 120deg,#0000 0;
 
   background:
 
-    radial-gradient(50% 50% at 100% 0,var(--_g)),
+    conic-gradient(from -60deg at 50% calc(100%/3),var(--_g)),
 
-    radial-gradient(50% 50% at 0 100%,var(--_g)),
+    conic-gradient(from 120deg at 50% calc(200%/3),var(--_g)),
 
-    radial-gradient(50% 50%,var(--_g)),
+    conic-gradient(from  60deg at calc(200%/3),var(--c3) 60deg,var(--c2) 0 120deg,#0000 0),
 
-    radial-gradient(50% 50%,var(--_g)) calc(var(--s)/2) calc(var(--s)/2)
+    conic-gradient(from 180deg at calc(100%/3),var(--c1) 60deg,var(--_g)),
 
-    var(--c1);
+    linear-gradient(90deg,var(--c1)   calc(100%/6),var(--c2) 0 50%,
 
-  background-size: var(--s) var(--s);
+                          var(--c1) 0 calc(500%/6),var(--c2) 0);
+
+  background-size: calc(1.732*var(--s)) var(--s);
 
 }
 
 .pair2 .cardBottom {
 
-  --s: 120px; /* control the size*/
+  --s: 47px;
 
-  --c1: #fa6900;
-
-  --c2: #d95b43;
-
-  --c3: #ecd078;
+  --c1: #1a144a;
   
+  --c2: #2eb044;
+  
+  --_g: conic-gradient(var(--c1) 25%,#0000 0) 0 0;
+
   background:
 
-    conic-gradient(from 150deg at 50% 33%,#0000,var(--c1) .5deg 60deg,#0000 60.5deg) 
+    var(--_g)/calc(2*var(--s)) calc(var(--s)/9.5),
 
-      calc(var(--s)/2) calc(var(--s)/sqrt(2)),
+    var(--_g)/calc(var(--s)/9.5) calc(2*var(--s)),
 
-    conic-gradient(from -30deg at 50% 66%,#0000,var(--c2) .5deg 60deg,var(--c3) 60.5deg);
+    repeating-conic-gradient(#0000 0 25%,var(--c1) 0 50%) 
 
-  background-size: var(--s) calc(.5*var(--s)/tan(30deg));
+     var(--s) 0 /calc(2*var(--s)) calc(2*var(--s)),
+
+    radial-gradient(50% 50%,var(--c2) 98%,var(--c1)) 
+
+     0 0/var(--s) var(--s);
 
 }
 
@@ -172,31 +174,31 @@ body {
 
 .pair4 .cardBottom {
 
-  --s: 60px; /* control the size*/
+  --s: 40px;
 
-  --c1: #ffdc56;
+  --c1: #542437;
 
-  --c2: #fe6601;
-
-  --c3: #803201;
+  --c2: #c02942;
   
-  --_s: calc(2*var(--s)) calc(2*var(--s));
+  --_g: 
 
-  --_g1: var(--_s) conic-gradient(at calc(500%/6) 50%,var(--c3) 25%,#0000 0);
+    #0000 calc(-650%/13) calc(50%/13),var(--c1) 0 calc(100%/13),
 
-  --_g2: var(--_s) conic-gradient(at calc(200%/3) 50%,var(--c2) 25%,#0000 0);
+    #0000 0 calc(150%/13),var(--c1) 0 calc(200%/13),
+
+    #0000 0 calc(250%/13),var(--c1) 0 calc(300%/13);
+
+  --_g0: repeating-linear-gradient( 45deg,var(--_g));
+
+  --_g1: repeating-linear-gradient(-45deg,var(--_g));
 
   background:
 
-    var(--s) var(--s)/var(--_g1),0 0/var(--_g1),
+    var(--_g0),var(--_g0) var(--s) var(--s),
 
-    var(--s) var(--s)/var(--_g2),0 0/var(--_g2),
-
-    repeating-conic-gradient(var(--c1) 0 25%,#0000 0 50%) 0 0/var(--_s),
-
-    linear-gradient(var(--c1) calc(100%/3),var(--c2) 0 calc(200%/3),var(--c3) 0)
-
-     0 0/var(--s) var(--s);
+    var(--_g1),var(--_g1) var(--s) var(--s) var(--c2);
+    
+  background-size: calc(2*var(--s)) calc(2*var(--s));
 
 }
 
@@ -233,7 +235,7 @@ body {
     grid-template-rows: 1fr 1fr;
 
     margin: 0 auto;
-    
+
   }
 
 }
