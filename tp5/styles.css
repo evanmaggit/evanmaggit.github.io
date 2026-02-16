@@ -1,0 +1,239 @@
+/* styles for Concentration board */
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+:root {
+
+  --boardWidth: 100vw; /* variable for overall board dimensions */
+
+  --boardGap: 1vw;
+
+  --cardSize: calc( ( var(--boardWidth) - var(--boardGap) ) / 2); /* calculated variable for mobile card dimensions */
+
+}
+
+body {
+
+  margin: var(--boardGap) 0 0 0;
+
+  padding: 0;
+
+}
+
+.card {
+
+  position: relative;
+
+  width: var(--cardSize);
+
+  height: var(--cardSize);
+
+  perspective: 500px; /* special CSS property relevant to 3D flips */
+
+}
+
+.cardContent {
+
+  position: absolute; /* positioning within the parent card object */
+
+  width: 100%;
+
+  height: 100%;
+
+  transition: transform 0.5s;
+
+  transform-style: preserve-3d; /* special CSS property relevant to 3D flips */
+
+}
+
+.card:hover .cardContent {
+
+  transform: rotateY(180deg); /* simulate a 3D flip */
+
+}
+
+.cardTop,
+
+.cardBottom {
+
+  position: absolute; /* positioning within the parent cardContent object */
+
+  text-align: center;
+
+  height: 100%;
+
+  width: 100%;
+
+  border: 2px solid darkblue;
+
+  font-size: 42px;
+
+  backface-visibility: hidden; /* special CSS property relevant to 3D flips */
+
+}
+
+.cardTop {
+
+  background-color: darkblue;
+
+  color: #eee;
+
+}
+
+.cardBottom {
+
+  background-color: #eee;
+
+  color: darkblue;
+
+  transform: rotateY(180deg); /* pre-flip so it appears on parent's flip */
+
+}
+
+.pair1 .cardBottom {
+
+  --s: 150px; /* control the size*/
+
+  --c1: #f7d2a1;
+
+  --c2: #05057e;
+  
+  --_g: 
+
+     var(--c1) 0%  5% ,var(--c2) 6%  15%,var(--c1) 16% 25%,var(--c2) 26% 35%,var(--c1) 36% 45%,
+
+     var(--c2) 46% 55%,var(--c1) 56% 65%,var(--c2) 66% 75%,var(--c1) 76% 85%,var(--c2) 86% 95%,
+
+     #0000 96%;
+
+  background:
+
+    radial-gradient(50% 50% at 100% 0,var(--_g)),
+
+    radial-gradient(50% 50% at 0 100%,var(--_g)),
+
+    radial-gradient(50% 50%,var(--_g)),
+
+    radial-gradient(50% 50%,var(--_g)) calc(var(--s)/2) calc(var(--s)/2)
+
+    var(--c1);
+
+  background-size: var(--s) var(--s);
+
+}
+
+.pair2 .cardBottom {
+
+  --s: 120px; /* control the size*/
+
+  --c1: #fa6900;
+
+  --c2: #d95b43;
+
+  --c3: #ecd078;
+  
+  background:
+
+    conic-gradient(from 150deg at 50% 33%,#0000,var(--c1) .5deg 60deg,#0000 60.5deg) 
+
+      calc(var(--s)/2) calc(var(--s)/sqrt(2)),
+
+    conic-gradient(from -30deg at 50% 66%,#0000,var(--c2) .5deg 60deg,var(--c3) 60.5deg);
+
+  background-size: var(--s) calc(.5*var(--s)/tan(30deg));
+
+}
+
+.pair3 .cardBottom {
+
+  --s: 100px; /* control the size*/
+
+  --c1: #eceddc;
+
+  --c2: #29ab87;
+  
+  --_g: var(--c1) 90deg,#0000 90.5deg;
+
+  background:
+
+   conic-gradient(from -45deg,var(--_g)),
+
+   conic-gradient(from 135deg,var(--_g)) calc(var(--s)/2) 0,
+
+   var(--c2);
+
+  background-size: var(--s) var(--s)
+
+}
+
+.pair4 .cardBottom {
+
+  --s: 60px; /* control the size*/
+
+  --c1: #ffdc56;
+
+  --c2: #fe6601;
+
+  --c3: #803201;
+  
+  --_s: calc(2*var(--s)) calc(2*var(--s));
+
+  --_g1: var(--_s) conic-gradient(at calc(500%/6) 50%,var(--c3) 25%,#0000 0);
+
+  --_g2: var(--_s) conic-gradient(at calc(200%/3) 50%,var(--c2) 25%,#0000 0);
+
+  background:
+
+    var(--s) var(--s)/var(--_g1),0 0/var(--_g1),
+
+    var(--s) var(--s)/var(--_g2),0 0/var(--_g2),
+
+    repeating-conic-gradient(var(--c1) 0 25%,#0000 0 50%) 0 0/var(--_s),
+
+    linear-gradient(var(--c1) calc(100%/3),var(--c2) 0 calc(200%/3),var(--c3) 0)
+
+     0 0/var(--s) var(--s);
+
+}
+
+#gameBoard {
+
+    position: relative;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    gap: var(--boardGap);
+
+    width: var(--boardWidth);
+
+}
+
+@media screen and (orientation: landscape) {
+
+  :root {
+
+    --boardWidth: 80vw; /* variable for overall board dimensions */
+
+    --cardSize: calc( ( var(--boardWidth) - (3 * var(--boardGap) ) ) / 4); /* calculated variable for landscape card dimensions */
+
+  }
+
+  #gameBoard {
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    grid-template-rows: 1fr 1fr;
+
+    margin: 0 auto;
+    
+  }
+
+}

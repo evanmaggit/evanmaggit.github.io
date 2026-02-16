@@ -1,0 +1,193 @@
+/* styles for weather app */
+
+:root {
+
+    --predictionBoxWidth: 70vw;
+
+    --predictionBoxHeight: 20vh;
+
+}
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    padding: 0;
+
+    margin: 0;
+
+    font-family: sans-serif;
+
+}
+
+main {
+
+    position: relative;
+
+    width: 100vw;
+
+    height: 100vh;
+
+    background-color: lightgrey;
+
+    display: grid;
+
+    grid-template-columns: 50vw 50vw;
+
+    grid-template-rows: 50vh 30vh var(--predictionBoxHeight);
+
+    grid-template-areas:
+
+        'currentInfo    currentInfo'
+        'currentHum     currentWind'
+        'future         future';
+
+}
+
+#currentInfo {
+
+    position: relative;
+
+    grid-area: currentInfo;
+
+    background-color: salmon;
+
+    border-bottom: 1px solid white;
+
+}
+
+#currentTemp {
+
+    position: absolute;
+
+    font-size: 5rem;
+
+    left: 1rem;
+
+}
+
+#currentStatus {
+
+    position: absolute;
+
+    bottom: 1rem;
+
+    left: 1rem;
+
+    font-size: 2rem;
+
+}
+
+#currentHumidity {
+
+    position: relative;
+
+    grid-area: currentHum;
+
+    background-color: lightblue;
+
+    border-bottom: 1px solid white;
+
+    border-right: 1px solid white;
+
+}
+
+#currentWind {
+
+    position: relative;
+
+    grid-area: currentWind;
+
+    background-color: lightgray;
+
+    border-bottom: 1px solid white;
+
+}
+
+#futureInfo {
+
+    position: relative;
+
+    grid-area: future;
+
+    background-color: lightgoldenrodyellow;
+
+    overflow: auto;
+
+    overflow-y: hidden;
+
+    scrollbar-width: none;
+
+    -ms-overflow-style: none;
+
+}
+
+#futureInfo::-webkit-scrollbar {
+
+    display: none;
+
+}
+
+.futureDay {
+
+    position: absolute;
+
+    width: var(--predictionBoxWidth);
+
+    height: var(--predictionBoxHeight);
+
+    border-right: 1px solid gray;
+
+}
+
+.futureDay:nth-child(2) {
+
+    left: var(--predictionBoxWidth);
+
+}
+
+.futureDay:nth-child(3) {
+
+    left: calc(var(--predictionBoxWidth) * 2);
+
+    border-right: none;
+
+}
+
+@media screen and (orientation: landscape) {
+
+    :root {
+
+        --predictionBoxWidth: 30vw;
+
+        --predictionBoxHeight: calc( 100vh / 3 );
+
+    }
+
+    main {
+
+        grid-template-columns: 60vw 40vw;
+
+        grid-template-rows: var(--predictionBoxHeight) var(--predictionBoxHeight) var(--predictionBoxHeight);
+
+        grid-template-areas:
+
+            'currentInfo    currentHum'
+            'currentInfo    currentWind'
+            'currentInfo    future';
+
+    }
+
+    #currentInfo {
+
+        border-bottom: none;
+
+        border-right: 1px solid white;
+
+    }
+    
+}
