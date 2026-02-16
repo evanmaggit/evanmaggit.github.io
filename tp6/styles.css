@@ -176,9 +176,9 @@ main {
 
         grid-template-areas:
 
-            'currentInfo    currentHum'
-            'currentInfo    currentWind'
-            'currentInfo    future';
+            'currentInfo    currentInfo'
+            'currentHum    currentWind'
+            'future    future';
 
     }
 
