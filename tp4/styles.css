@@ -1,12 +1,12 @@
-/* styles for the TP4: Tic-Tac-Toe project */
+/* styles for the Tic-Tac-Toe project */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
 
-    --gameBoardSize: 80vh;
+    --gameBoardSize: 100vh;
 
-    --gameBoardSpacer: 15px;
+    --gameBoardSpacer: 20px;
 
 }
 
