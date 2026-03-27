@@ -61,3 +61,40 @@
     text-transform: uppercase;
     
 }
+
+.gameSpace:hover {
+  
+    background-color: green;
+  
+}
+
+.gameSpace.clicked:hover {
+  
+    background-color: white;
+  
+}
+
+
+#gameResult {
+  
+    position: absolute;
+  
+    top: 0;
+  
+    left: 0;
+  
+    width: 120vw;
+  
+    height: 120vh;
+  
+    background-color: green;
+  
+    color: white;
+  
+    font-size: 8rem;
+
+    text-align: center;
+  
+    z-index: 1;
+  
+}
