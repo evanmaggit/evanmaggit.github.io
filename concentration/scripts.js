@@ -1,4 +1,4 @@
-let playerClicks = 0;
+let clicks = 0;
 
 let timeDelay = 1000;
 
@@ -12,9 +12,9 @@ function clearClicks() {
 
     }
 
-    playerClicks++;
+    clicks++;
 
-    document.querySelector("#turnCount span").innerHTML = playerClicks;
+    document.querySelector("#turnCount span").innerHTML = clicks;
 
     let allCards = document.querySelectorAll(".card");
 
