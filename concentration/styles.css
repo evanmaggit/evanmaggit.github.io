@@ -11,6 +11,9 @@
   --boardGap: 1vw;
 
   --cardSize: calc( ( var(--boardWidth) - var(--boardGap) ) / 2);
+
+  --timeDelay: 1s;
+
 }
 
 body {
@@ -31,6 +34,8 @@ body {
 
   perspective: 500px;
 
+  transition: opacity 1s;
+  
 }
 
 .cardContent {
