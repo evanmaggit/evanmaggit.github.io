@@ -61,11 +61,7 @@ async function getData(url, options) {
 
 function updateWeather(weatherObject) {
 
-    // outputting whole weather object to console
-
     console.log(weatherObject);
-
-    // update current weather temp, status, humidity
 
     document.querySelector("#currentTemp span").innerHTML = weatherObject.current.temp_f;
 
@@ -82,23 +78,15 @@ function updateWeather(weatherObject) {
     document.querySelector("#currentWind").innerHTML = windspeed + "mph " + winddirection;
 
 
-    // find all the future day blocks and loop through them, matching the forecast days in the weather obj
-
     let futureDays = document.querySelectorAll(".futureDay");
 
     for (i = 0; i < futureDays.length; i++) {
 
-        // update future temp
-
         futureDays[i].querySelector(".futureTemp span").innerHTML = weatherObject.forecast.forecastday[i].day.maxtemp_f;
-
-        // update future windspeed
 
         windspeed = weatherObject.forecast.forecastday[i].day.maxwind_mph;
 
         futureDays[i].querySelector(".futureWind").innerHTML = windspeed + "mph ";
-
-        // update future condition status
 
         futureDays[i].querySelector(".futureStatus").innerHTML = weatherObject.forecast.forecastday[i].day.condition.text;
 
@@ -146,23 +134,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
     });
 
-    // ipLookup data
-
     let ipLookupURL = "https://api.ipify.org/?format=json";
 
     let ipLookupOptios = {};
 
-    // use ajax to fetch IP in JSON format
-
     getData(ipLookupURL, ipLookupOptios).then(function(result) {
-        
-        // adding the IP number to the weather URL for lookup
 
         let weatherLookupURL = weatherUrl + result.ip;
 
         console.log(weatherLookupURL);
-
-        // use the resulting IP number to look up weather
 
         getData(weatherLookupURL, weatherOptions).then(function(weatherResult){
 
@@ -174,8 +154,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     });
 
-    // make the location button show the modal popups
-
     document.querySelector("#findLocation").addEventListener("click", function(){
 
         document.body.classList.toggle("showModal");
@@ -184,21 +162,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.querySelector("#locationForm").addEventListener("submit", function(event){
 
-        // stop form from submitting to server
-
 	    event.preventDefault();
 
         document.body.classList.toggle("showModal");
 
         let newLocation = document.querySelector("#locationBox").value;
 
-        // adding the passed value to the weather URL for lookup
-
         let weatherLookupURL = weatherUrl + newLocation;
 
         console.log(weatherLookupURL);
-
-        // use the resulting IP number to look up weather
 
         getData(weatherLookupURL, weatherOptions).then(function(weatherResult){
 
