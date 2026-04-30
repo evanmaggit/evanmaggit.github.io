@@ -164,6 +164,73 @@ main {
 
 }
 
+#modalCover {
+
+	position: fixed;
+
+	display: none;
+
+	top: 0;
+
+	left: 0;
+
+	width: 100vw;
+
+	height: 100vh;
+
+	background-color: rgba(255,255,255,0.7);
+
+	backdrop-filter: blur(8px);
+
+	z-index: 1000;
+
+}
+
+#modalForm {
+
+    position: fixed;
+
+	display: none;
+
+	width: 80vw;
+
+	height: 60vh;
+
+	left: 10vw;
+
+	top: 20vh;
+
+	padding: 1em;
+
+	background-color: white;
+
+	border: 1px solid gray;
+
+	color: black;
+
+	z-index: 1001;
+
+}
+
+#findLocation {
+
+    position: absolute;
+
+    top: 0;
+
+    right: 0;
+
+    z-index: 999;
+
+}
+
+body.showModal #modalCover,
+body.showModal #modalForm {
+
+    display: block;
+    
+}
+
 @media screen and (orientation: landscape) {
 
     :root {
