@@ -8,6 +8,8 @@
 
 }
 
+/* Professional Scrolling */
+
 html {
 
   scroll-behavior: smooth;
@@ -73,6 +75,8 @@ a {
   font-size: 0.9rem;
 
 }
+
+/* Links */
 
 .nav-links {
 
@@ -192,6 +196,8 @@ a {
 
 }
 
+/* Main Page */
+
 main {
 
   width: min(1120px, calc(100% - 40px));
@@ -239,6 +245,8 @@ main {
   font-size: 1rem;
 
 }
+
+/* Poster Functions */
 
 .poster-grid {
 
@@ -317,7 +325,7 @@ main {
 
     url("Clown\ \(poster\).jpg");
 
-  background-color: #310707;
+  background-color: #1b5158;
 
 }
 
@@ -329,7 +337,7 @@ main {
 
     url("NYNY\ \(poster\).jpg");
 
-  background-color: #111c24;
+  background-color: #99802e;
 
 }
 
@@ -341,7 +349,7 @@ main {
 
     url("Father\ \(poster\).JPG");
 
-  background-color: #1d1814;
+  background-color: #4d1c37;
 
 }
 
@@ -431,6 +439,8 @@ main {
 
 }
 
+/* Caterogies */
+
 .about-section,
 .contact-section {
 
@@ -477,6 +487,8 @@ main {
   font-size: 0.9rem;
 
 }
+
+/* Media Formatting */
 
 @media (max-width: 900px) {
 
@@ -550,5 +562,5 @@ main {
     font-size: 2rem;
 
   }
-  
+
 }
