@@ -8,11 +8,11 @@
 
     "genre": "Horror",
 
-    "tagline": "A painted smile can hide a lot of teeth.",
+    "tagline": "How far would you go to have the last laugh?",
 
-    "logline": "A performer trapped behind a grotesque clown persona begins to lose control as the mask, the audience, and the joke turn against him.",
+    "logline": "A young woman reunites with a long-lost friend on New Year's Eve for an unforgettable celebration.",
 
-    "synopsis": "Clown is a horror short about performance, humiliation, and the terror of being watched. Set inside a tense, nightmarish world of greasepaint, stage lights, and forced laughter, the film explores what happens when a character built to entertain becomes something deeply unsafe.",
+    "synopsis": "I'll write something here...",
 
     "themes": [
 
@@ -30,9 +30,9 @@
 
     "poster": {
 
-      "image": "images/clown-poster.jpg",
+      "image": "Clown (poster).jpg",
 
-      "alt": "Poster for the horror short film Clown"
+      "alt": "The official poster."
 
     },
 
@@ -40,15 +40,15 @@
 
       {
 
-        "image": "images/clown-still-01.jpg",
+        "image": "Clown (light shot).jpg",
 
-        "alt": "A tense still."
+        "alt": "A tense yet calmer still."
 
       },
 
       {
 
-        "image": "images/clown-still-02.jpg",
+        "image": "Clown (dark shot).jpg",
 
         "alt": "A dark atmospheric moment."
 
@@ -56,7 +56,7 @@
 
       {
 
-        "image": "images/clown-still-03.jpg",
+        "image": "Clown (bts).jpg",
 
         "alt": "A behind-the-scenes picture."
 
