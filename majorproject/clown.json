@@ -1,0 +1,140 @@
+{
+
+  "film": {
+
+    "title": "Clown",
+
+    "type": "Short Film",
+
+    "genre": "Horror",
+
+    "tagline": "A painted smile can hide a lot of teeth.",
+
+    "logline": "A performer trapped behind a grotesque clown persona begins to lose control as the mask, the audience, and the joke turn against him.",
+
+    "synopsis": "Clown is a horror short about performance, humiliation, and the terror of being watched. Set inside a tense, nightmarish world of greasepaint, stage lights, and forced laughter, the film explores what happens when a character built to entertain becomes something deeply unsafe.",
+
+    "themes": [
+
+      "Performance",
+
+      "Identity",
+
+      "Humiliation",
+
+      "Fear of being watched",
+
+      "The horror of forced joy"
+
+    ],
+
+    "poster": {
+
+      "image": "images/clown-poster.jpg",
+
+      "alt": "Poster for the horror short film Clown"
+
+    },
+
+    "stills": [
+
+      {
+
+        "image": "images/clown-still-01.jpg",
+
+        "alt": "A tense still from Clown"
+
+      },
+
+      {
+
+        "image": "images/clown-still-02.jpg",
+
+        "alt": "A dark atmospheric moment from Clown"
+
+      },
+
+      {
+
+        "image": "images/clown-still-03.jpg",
+
+        "alt": "A close-up from Clown"
+
+      }
+
+    ],
+
+    "credits": {
+
+      "director": "Evan",
+
+      "writer": "Evan",
+
+      "producer": "Evan",
+
+      "cast": [
+
+        "Actor Name"
+
+      ],
+
+      "cinematographer": "Cinematographer Name",
+
+      "editor": "Editor Name",
+
+      "composer": "Composer Name"
+
+    },
+
+    "details": {
+
+      "runtime": "TBD",
+
+      "releaseYear": "TBD",
+
+      "country": "United States",
+
+      "language": "English",
+
+      "format": "Digital"
+
+    },
+
+    "links": {
+
+      "trailer": "#",
+
+      "watchFilm": "#",
+
+      "imdb": "#",
+
+      "pressKit": "#"
+
+    },
+
+    "directorStatement": "Clown uses the image of the entertainer as a source of dread. I wanted to explore the moment when something designed to make people laugh becomes intimate, unstable, and frightening.",
+
+    "seo": {
+
+      "pageTitle": "Clown | Horror Short Film",
+
+      "metaDescription": "Clown is a horror short film about performance, identity, and the terror hiding beneath a painted smile.",
+
+      "keywords": [
+
+        "Clown short film",
+
+        "horror short film",
+
+        "Evan director",
+
+        "independent horror",
+
+        "short film portfolio"
+
+      ]
+
+    }
+    
+  }
+}
