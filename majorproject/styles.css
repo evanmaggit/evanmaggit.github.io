@@ -572,7 +572,7 @@ main {
   padding: 28px;
   background:
     linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.45)),
-    radial-gradient(circle at 80% 20%, rgba(176, 0, 0, 0.4), transparent 28rem);
+    radial-gradient(circle at 80% 20%, rgba(39, 176, 235, 0.4), transparent 28rem);
 }
 
 .film-hero {
@@ -615,7 +615,7 @@ main {
   border-radius: 30px;
   box-shadow:
     0 30px 90px rgba(0, 0, 0, 0.7),
-    0 0 80px rgba(176, 0, 0, 0.22);
+    0 0 80px rgba(28, 145, 196, 0.22);
 }
 
 .film-page-main {
@@ -628,7 +628,7 @@ main {
   display: grid;
   grid-template-columns: 0.85fr 1.15fr;
   gap: 48px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(36, 162, 240, 0.1);
 }
 
 .film-info-section h2 {
@@ -652,7 +652,7 @@ main {
 
 .detail-card {
   background:
-    linear-gradient(145deg, rgba(176, 0, 0, 0.14), transparent),
+    linear-gradient(145deg, rgba(24, 163, 255, 0.14), transparent),
     rgba(255, 255, 255, 0.045);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 28px;
