@@ -42,7 +42,7 @@
 
         "image": "images/clown-still-01.jpg",
 
-        "alt": "A tense still from Clown"
+        "alt": "A tense still."
 
       },
 
@@ -50,7 +50,7 @@
 
         "image": "images/clown-still-02.jpg",
 
-        "alt": "A dark atmospheric moment from Clown"
+        "alt": "A dark atmospheric moment."
 
       },
 
@@ -58,7 +58,7 @@
 
         "image": "images/clown-still-03.jpg",
 
-        "alt": "A close-up from Clown"
+        "alt": "A behind-the-scenes picture."
 
       }
 
@@ -66,11 +66,11 @@
 
     "credits": {
 
-      "director": "Evan",
+      "director": "Evan Maggit",
 
-      "writer": "Evan",
+      "writer": "Evan Maggit",
 
-      "producer": "Evan",
+      "producer": "Serena Tremble, Angus Matheson",
 
       "cast": [
 
@@ -78,25 +78,25 @@
 
       ],
 
-      "cinematographer": "Cinematographer Name",
+      "cinematographer": "Evan Maggit",
 
-      "editor": "Editor Name",
+      "editor": "Evan Maggit",
 
-      "composer": "Composer Name"
+      "composer": "Liam Wright"
 
     },
 
     "details": {
 
-      "runtime": "TBD",
+      "runtime": "29 mins",
 
-      "releaseYear": "TBD",
+      "releaseYear": "2024",
 
       "country": "United States",
 
       "language": "English",
 
-      "format": "Digital"
+      "format": "Digital/YouTube"
 
     },
 
@@ -112,13 +112,13 @@
 
     },
 
-    "directorStatement": "Clown uses the image of the entertainer as a source of dread. I wanted to explore the moment when something designed to make people laugh becomes intimate, unstable, and frightening.",
+    "directorStatement": "#",
 
     "seo": {
 
       "pageTitle": "Clown | Horror Short Film",
 
-      "metaDescription": "Clown is a horror short film about performance, identity, and the terror hiding beneath a painted smile.",
+      "metaDescription": "#",
 
       "keywords": [
 
@@ -135,6 +135,6 @@
       ]
 
     }
-    
+
   }
 }
