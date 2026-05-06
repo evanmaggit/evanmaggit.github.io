@@ -16,15 +16,15 @@
 
     "themes": [
 
-      "Performance",
+      "Nostalgia",
 
       "Identity",
 
-      "Humiliation",
+      "Coulrophobia",
 
-      "Fear of being watched",
+      "The fear of being watched",
 
-      "The horror of forced joy"
+      "The horror of trauma and forced joy"
 
     ],
 
@@ -102,17 +102,15 @@
 
     "links": {
 
-      "trailer": "#",
+      "trailer": "https://youtu.be/i18JwI6m2mY?si=TfR6iM-hYPkqGUvi",
 
-      "watchFilm": "#",
+      "watchFilm": "https://youtu.be/uqTwvXAsIFY?si=5PXpYuGNCERvTkXt",
 
-      "imdb": "#",
-
-      "pressKit": "#"
+      "letterboxd": "https://letterboxd.com/film/clown-2024/"
 
     },
 
-    "directorStatement": "#",
+    "directorStatement": "I'll write something here...",
 
     "seo": {
 
