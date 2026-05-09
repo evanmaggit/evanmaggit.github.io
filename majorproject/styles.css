@@ -892,3 +892,17 @@ main {
   }
   
 }
+
+/* New Year, New You film page */
+
+.new-year-page-header {
+
+  background:
+  
+    linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(241, 238, 15, 0.45)),
+
+    radial-gradient(circle at 80% 20%, rgba(217, 238, 27, 0.28), transparent 28rem),
+
+    radial-gradient(circle at 20% 80%, rgba(219, 172, 18, 0.22), transparent 24rem);
+
+}

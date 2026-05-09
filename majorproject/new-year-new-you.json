@@ -2,13 +2,13 @@
 
   "film": {
 
-    "title": "Clown",
+    "title": "New Year, New You",
 
     "type": "Short Film",
 
     "genre": "Horror",
 
-    "tagline": "How far would you go to have the last laugh?",
+    "tagline": "Bring your best self.",
 
     "logline": "A young woman reunites with a long-lost friend on New Year's Eve for an unforgettable celebration.",
 
@@ -16,31 +16,30 @@
 
     "themes": [
 
-      "Nostalgia",
+      "Reinvention",
 
-      "Identity",
+      "Self-improvement culture",
 
-      "Coulrophobia",
+      "Obsession",
 
-      "The fear of being watched",
+      "Control",
 
-      "The horror of trauma and forced joy"
+      "Fear of change"
 
     ],
 
     "poster": {
 
-      "image": "Clown (poster).jpg",
+      "image": "NYNY (poster).jpg",
 
       "alt": "The official poster."
 
     },
-
     "stills": [
 
       {
 
-        "image": "Clown (light shot).jpg",
+        "image": "images/new-year-new-you-still-01.jpg",
 
         "alt": "A tense yet calmer still."
 
@@ -48,7 +47,7 @@
 
       {
 
-        "image": "Clown (dark shot).jpg",
+        "image": "images/new-year-new-you-still-02.jpg",
 
         "alt": "A dark atmospheric moment."
 
@@ -56,7 +55,7 @@
 
       {
 
-        "image": "Clown (bts).jpg",
+        "image": "images/new-year-new-you-still-03.jpg",
 
         "alt": "A behind-the-scenes picture."
 
@@ -82,15 +81,15 @@
 
       "editor": "Evan Maggit",
 
-      "composer": "Disasterpeace"
+      "composer": "Liam Wright"
 
     },
 
     "details": {
 
-      "runtime": "29 mins",
+      "runtime": "14 mins",
 
-      "releaseYear": "2024",
+      "releaseYear": "2025",
 
       "country": "United States",
 
@@ -102,11 +101,11 @@
 
     "links": {
 
-      "trailer": "https://youtu.be/i18JwI6m2mY?si=TfR6iM-hYPkqGUvi",
+      "trailer": "https://youtu.be/B91-Pyy-dtE?si=VHQaedyPxFKAK4pp",
 
-      "watchFilm": "https://youtu.be/uqTwvXAsIFY?si=5PXpYuGNCERvTkXt",
+      "watchFilm": "https://youtu.be/uqTwvXAsIFY?si=TEbfomj6z6ODtmoT",
 
-      "letterboxd": "https://letterboxd.com/film/clown-2024/"
+      "letterboxd": "https://letterboxd.com/film/new-year-new-you-2025/"
 
     },
 
@@ -114,21 +113,21 @@
 
     "seo": {
 
-      "pageTitle": "Clown | 4K Short Film",
+      "pageTitle": "New Year, New You | Horror Short Film",
 
-      "metaDescription": "A page for my first short film.",
+      "metaDescription": "A page for my second short film.",
 
       "keywords": [
 
-        "Clown short film",
+        "New Year New You short film",
+
+        "New Year horror short",
 
         "horror short film",
 
-        "Evan Maggit director",
-
         "Evan director",
 
-        "indie horror",
+        "independent horror",
 
         "short film portfolio"
 
@@ -137,4 +136,5 @@
     }
 
   }
+  
 }
