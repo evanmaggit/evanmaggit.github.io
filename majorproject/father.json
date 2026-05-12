@@ -14,21 +14,21 @@
       "Emotional haunting"
     ],
     "poster": {
-      "image": "images/father-poster.jpg",
-      "alt": "Poster for the horror short film Father"
+      "image": "Father (poster).jpg",
+      "alt": "The official poster."
     },
     "stills": [
       {
-        "image": "images/father-still-01.jpg",
-        "alt": "A tense still from Father"
+        "image": "Father (light shot).jpg",
+        "alt": "A tense yet calmer still."
       },
       {
-        "image": "images/father-still-02.jpg",
-        "alt": "A dark atmospheric moment from Father"
+        "image": "Father (dark shot).jpg",
+        "alt": "A dark atmospheric moment."
       },
       {
-        "image": "images/father-still-03.jpg",
-        "alt": "A haunting close-up from Father"
+        "image": "Father (bts).jpg",
+        "alt": "A behind-the-scenes picture."
       }
     ],
     "credits": {
@@ -54,9 +54,9 @@
       "format": "Digital/YouTube"
     },
     "links": {
-      "trailer": "#",
-      "watchFilm": "#",
-      "letterboxd": "#"
+      "trailer": "https://youtu.be/eOt7BwqDP_w?si=F_ktmcLZZd8NcI7h",
+      "watchFilm": "https://youtu.be/zWS8HDONy4w?si=YDmLo1Pt1NCuiR0V",
+      "letterboxd": "https://letterboxd.com/film/father-2026/"
     },
     "directorStatement": "I'll write something here...",
     "seo": {
