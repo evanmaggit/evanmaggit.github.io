@@ -906,3 +906,17 @@ main {
     radial-gradient(circle at 20% 80%, rgba(219, 172, 18, 0.22), transparent 24rem);
 
 }
+
+/* Father film page */
+
+.father-page-header {
+
+  background:
+
+    linear-gradient(to right, rgba(0, 0, 0, 0.96), rgba(88, 3, 58, 0.52)),
+
+    radial-gradient(circle at 78% 22%, rgba(249, 0, 174, 0.32), transparent 28rem),
+
+    radial-gradient(circle at 18% 82%, rgba(176, 0, 0, 0.18), transparent 24rem);
+
+}

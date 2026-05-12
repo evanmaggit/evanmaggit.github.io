@@ -1,0 +1,76 @@
+{
+  "film": {
+    "title": "Father",
+    "type": "Short Film",
+    "genre": "Horror",
+    "tagline": "He died years ago. His legacy didn't.",
+    "logline": "During Thanksgiving week, two college friends interview a group of students who have seen the ghost of a deceased father.",
+    "synopsis": "I'll write something here...",
+    "themes": [
+      "Family trauma",
+      "Memory",
+      "Grief",
+      "Inheritance",
+      "Emotional haunting"
+    ],
+    "poster": {
+      "image": "images/father-poster.jpg",
+      "alt": "Poster for the horror short film Father"
+    },
+    "stills": [
+      {
+        "image": "images/father-still-01.jpg",
+        "alt": "A tense still from Father"
+      },
+      {
+        "image": "images/father-still-02.jpg",
+        "alt": "A dark atmospheric moment from Father"
+      },
+      {
+        "image": "images/father-still-03.jpg",
+        "alt": "A haunting close-up from Father"
+      }
+    ],
+    "credits": {
+      "director": "Evan Maggit",
+      "writer": "Evan Maggit",
+      "producer": "Serena Tremble, Angus Matheson",
+      "cast": [
+        "Kaia Bonilla",
+        "Claire Cimmiyotti",
+        "George Castin",
+        "Genesis Mayberry",
+        "Abba Pike"
+      ],
+      "cinematographer": "Evan Maggit",
+      "editor": "Evan Maggit",
+      "composer": "Liam Wright"
+    },
+    "details": {
+      "runtime": "29 mins",
+      "releaseYear": "2026",
+      "country": "United States",
+      "language": "English",
+      "format": "Digital/YouTube"
+    },
+    "links": {
+      "trailer": "#",
+      "watchFilm": "#",
+      "letterboxd": "#"
+    },
+    "directorStatement": "I'll write something here...",
+    "seo": {
+      "pageTitle": "Father | 4K Short Film",
+      "metaDescription": "Father is a horror short film about family trauma, grief, memory, and the haunting presence of inheritance.",
+      "keywords": [
+        "Father short film",
+        "Father horror short",
+        "family horror short film",
+        "psychological horror",
+        "Evan Maggit director",
+        "indie horror",
+        "short film portfolio"
+      ]
+    }
+  }
+}
